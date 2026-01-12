@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SwichScreenApp
 //
-//  Created by Takahashi Haruno on 2025/11/15.
+//  Created by Haruno on 2025/11/15.
 //
 
 import UIKit
