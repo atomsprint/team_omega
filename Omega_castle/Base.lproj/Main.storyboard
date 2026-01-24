@@ -343,6 +343,10 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="CWD-r2-omD"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usagi" translatesAutoresizingMaskIntoConstraints="NO" id="FWy-sr-ABD">
+                                <rect key="frame" x="61" y="173" width="281" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Evi-5i-PHq"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
@@ -1144,13 +1148,14 @@ D の兜城は、高遠城のことです。</string>
         <segue reference="tzi-db-Mhb"/>
         <segue reference="9Bd-3d-KSN"/>
         <segue reference="dMu-Nn-mJz"/>
-        <segue reference="gav-sQ-TFd"/>
+        <segue reference="CWD-r2-omD"/>
         <segue reference="E32-ik-7s2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image" width="95.333335876464844" height="172.33332824707031"/>
         <image name="Intro_image2" width="96" height="171"/>
         <image name="Omegajo_image" width="124" height="125.33333587646484"/>
+        <image name="usagi" width="65.333335876464844" height="85.666664123535156"/>
         <image name="姫路城" width="91.666664123535156" height="61"/>
         <image name="日本地図" width="466.66665649414062" height="440"/>
         <image name="松本城" width="150" height="112.33333587646484"/>
