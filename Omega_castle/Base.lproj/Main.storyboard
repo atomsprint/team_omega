@@ -1044,7 +1044,7 @@ D の兜城は、高遠城のことです。</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">『ヒント』：　烏城とも呼ばれているよ
-『大ヒント！』：　さんごくしの漢字が入っているよ</string>
+『大ヒント！』：　三国志の漢字が入っているよ</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
