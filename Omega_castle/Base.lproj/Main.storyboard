@@ -1255,7 +1255,7 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yDq-q1-eud" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="769" y="2259"/>
+            <point key="canvasLocation" x="118" y="2239"/>
         </scene>
         <!--Randam View Controller-->
         <scene sceneID="nVh-Zk-a9G">
@@ -1265,79 +1265,56 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="松本城の階段の角度は何度でしょう" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PD-rv-kRP">
-                                <rect key="frame" x="16" y="44" width="370" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="19c-m2-ydp">
-                                <rect key="frame" x="131" y="90" width="141" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SQ0-aM-hUI">
-                                <rect key="frame" x="0.0" y="257" width="402" height="539"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SQ0-aM-hUI">
+                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
+                                <mutableString key="text">松本城の階段の角度は何度でしょう
+D 61度　正解✅
+
+解説
+よく読んでおこう
+（次の問題に役立つよ）
+
+国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
 本丸正門の復元された黒門は侵入者が直進出来ない枡形門で、一の門が櫓門、二の門は高麗門になっている。
 天守4階の階段は、日本一急で61度の角度。
 石落とし11ヶ所。鉄砲狭間と矢狭間の合計125箇所。
 金箔瓦。
 乾小天守の丸太柱は日本唯一。
 一の門の左に巨石『玄蕃石』がある。推定２６.５トン。石垣は自然石をそのまま積み上げる野面積み。勾配は緩やかで直線的に積み上げられている。
-天守のある本丸を囲むように、三重の水堀がめぐる平城。</string>
+天守のある本丸を囲むように、三重の水堀がめぐる平城。</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvs-8j-jRa">
-                                <rect key="frame" x="84" y="804" width="234" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTb-L7-wyn">
+                                <rect key="frame" x="282" y="28" width="120" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="次のクイズへ">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="1" green="0.93169389309999995" blue="0.70556209209999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="eBj-Ik-qPa" kind="show" id="Gir-Pq-Cg6"/>
+                                    <segue destination="qsv-WT-giD" kind="show" id="CBe-NU-UtV"/>
                                 </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqx-KM-gpY">
-                                <rect key="frame" x="169" y="218" width="65" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OyC-YE-Bib">
-                                <rect key="frame" x="0.0" y="185" width="170" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">よく読んでおこう。
-（次の問題の答えがあるよ）</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y03-i4-6jD">
-                                <rect key="frame" x="111" y="185" width="275" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="C 石川数正　正解✅">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="28"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kdi-n8-gTL"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="bottom" secondItem="kdi-n8-gTL" secondAttribute="bottom" id="5lX-0h-1EP"/>
+                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="top" secondItem="kdi-n8-gTL" secondAttribute="top" id="8XQ-uA-ESs"/>
+                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="leading" secondItem="kdi-n8-gTL" secondAttribute="leading" id="DFf-P0-uK4"/>
+                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="trailing" secondItem="kdi-n8-gTL" secondAttribute="trailing" id="Sab-BH-2SH"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PsW-yC-gJj"/>
+                    <connections>
+                        <outlet property="textView" destination="SQ0-aM-hUI" id="4jS-q3-LTI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1l-ab-dBK" sceneMemberID="firstResponder"/>
             </objects>
@@ -1508,7 +1485,7 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
             <objects>
                 <viewController id="Pgx-29-r8Y" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZFy-E0-BkJ">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="松本城の石垣は、何という積み方でしょう" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY7-Nu-f5q">
@@ -1564,33 +1541,6 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="松本城の階段の角度は何度でしょう" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWB-EH-Miw">
-                                <rect key="frame" x="16" y="44" width="370" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="XJ2-zR-o2U">
-                                <rect key="frame" x="131" y="90" width="141" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="14T-wI-l32">
-                                <rect key="frame" x="0.0" y="257" width="402" height="539"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
-本丸正門の復元された黒門は侵入者が直進出来ない枡形門で、一の門が櫓門、二の門は高麗門になっている。
-天守4階の階段は、日本一急で61度の角度。
-石落とし11ヶ所。鉄砲狭間と矢狭間の合計125箇所。
-金箔瓦。
-乾小天守の丸太柱は日本唯一。
-一の門の左に巨石『玄蕃石』がある。推定２６.５トン。石垣は自然石をそのまま積み上げる野面積み。勾配は緩やかで直線的に積み上げられている。
-天守のある本丸を囲むように、三重の水堀がめぐる平城。</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGl-p7-2c8">
                                 <rect key="frame" x="84" y="804" width="234" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1603,25 +1553,48 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uz4-E8-J6t">
-                                <rect key="frame" x="169" y="218" width="65" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDu-fg-dO7">
-                                <rect key="frame" x="64" y="185" width="275" height="25"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zRS-a1-RJW">
+                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">松本城の階段の角度は何度でしょう
+D 61度　正解✅
+
+解説
+よく読んでおこう
+（次の問題に役立つよ）
+
+国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
+本丸正門の復元された黒門は侵入者が直進出来ない枡形門で、一の門が櫓門、二の門は高麗門になっている。
+天守4階の階段は、日本一急で61度の角度。
+石落とし11ヶ所。鉄砲狭間と矢狭間の合計125箇所。
+金箔瓦。
+乾小天守の丸太柱は日本唯一。
+一の門の左に巨石『玄蕃石』がある。推定２６.５トン。石垣は自然石をそのまま積み上げる野面積み。勾配は緩やかで直線的に積み上げられている。
+天守のある本丸を囲むように、三重の水堀がめぐる平城。</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xd-ym-xdE">
+                                <rect key="frame" x="266" y="20" width="120" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="A 野面積　正解✅">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="28"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <buttonConfiguration key="configuration" style="plain" title="次のクイズへ">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="1" green="0.93169389309999995" blue="0.70556209209999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1eJ-jK-haM"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zRS-a1-RJW" firstAttribute="leading" secondItem="1eJ-jK-haM" secondAttribute="leading" id="RgG-43-bLf"/>
+                            <constraint firstItem="zRS-a1-RJW" firstAttribute="bottom" secondItem="1eJ-jK-haM" secondAttribute="bottom" id="g5B-Kt-5tK"/>
+                            <constraint firstItem="zRS-a1-RJW" firstAttribute="trailing" secondItem="1eJ-jK-haM" secondAttribute="trailing" id="kX3-AR-zI5"/>
+                            <constraint firstItem="zRS-a1-RJW" firstAttribute="top" secondItem="1eJ-jK-haM" secondAttribute="top" id="rwm-ik-W7E"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qa9-ln-Amg"/>
                 </viewController>
@@ -1632,10 +1605,9 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="l0Z-Uc-la8"/>
-        <segue reference="Gir-Pq-Cg6"/>
         <segue reference="2aF-Ud-R2Q"/>
-        <segue reference="8qo-Oa-Brk"/>
-        <segue reference="eyI-fd-RwO"/>
+        <segue reference="CBe-NU-UtV"/>
+        <segue reference="qln-P3-u2K"/>
         <segue reference="U6w-nN-zaZ"/>
         <segue reference="UIq-zG-nDw"/>
         <segue reference="SSs-ur-PSv"/>
