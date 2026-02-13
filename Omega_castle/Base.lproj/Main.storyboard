@@ -334,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="3065.6716417910447" y="819.67963386727683"/>
         </scene>
-        <!--Chart View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="BTU-vP-nP9">
             <objects>
-                <viewController id="fGF-F0-C3p" customClass="ChartViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fGF-F0-C3p" customClass="searchViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Vi-mw-6ba">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -374,40 +374,51 @@
             </objects>
             <point key="canvasLocation" x="2399" y="122"/>
         </scene>
-        <!--Chart View Controller-->
+        <!--Ranking View Controller-->
         <scene sceneID="iu8-mK-bvQ">
             <objects>
-                <viewController id="xWn-2y-zky" customClass="ChartViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xWn-2y-zky" customClass="RankingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iU-Eb-PYz">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="r5W-kp-fk4">
-                                <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REw-CF-tnd">
+                                <rect key="frame" x="321" y="62" width="56" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="戻る">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="eud-eD-OBg"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aUe-Xb-Lm2">
+                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PrefectureCell" rowHeight="60" id="GTi-AA-c7B" customClass="PrefectureCell" customModule="Omega_castle" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PrefectureCell" rowHeight="60" id="nAc-km-3e4" customClass="PrefectureCell" customModule="RankingCustomApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50.333333969116211" width="402" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GTi-AA-c7B" id="XD4-sj-2TM">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nAc-km-3e4" id="Dlc-K5-bLp">
                                             <rect key="frame" x="0.0" y="0.0" width="402" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oi3-W0-j0Z">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTJ-Q9-5zO">
                                                     <rect key="frame" x="31" y="20" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="北海道" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0o-sT-G8j">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="北海道" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHy-BW-csl">
                                                     <rect key="frame" x="109" y="20" width="81" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="83424" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4K-IR-qFv">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="83424" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5x-K9-wuP">
                                                     <rect key="frame" x="214" y="20" width="131" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -417,52 +428,35 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="areaLabel" destination="h4K-IR-qFv" id="VYM-TH-3lj"/>
-                                            <outlet property="nameLabel" destination="s0o-sT-G8j" id="aIs-pJ-f0k"/>
-                                            <outlet property="rankLabel" destination="Oi3-W0-j0Z" id="Ny4-aL-OBY"/>
+                                            <outlet property="areaLabel" destination="L5x-K9-wuP" id="l2G-RV-RV9"/>
+                                            <outlet property="nameLabel" destination="UHy-BW-csl" id="Ayd-FS-nus"/>
+                                            <outlet property="rankLabel" destination="JTJ-Q9-5zO" id="fJY-Oo-Ila"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY3-ji-1zB">
-                                <rect key="frame" x="346" y="111" width="56" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="戻る">
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ETq-Gf-Lhz" kind="show" id="MDm-kz-Rem"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I5I-xF-M6s"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="r5W-kp-fk4" firstAttribute="leading" secondItem="I5I-xF-M6s" secondAttribute="leading" id="HbZ-VX-WeT"/>
-                            <constraint firstItem="r5W-kp-fk4" firstAttribute="top" secondItem="7iU-Eb-PYz" secondAttribute="top" id="IG5-cv-nTL"/>
-                            <constraint firstAttribute="bottom" secondItem="r5W-kp-fk4" secondAttribute="bottom" id="PkP-NE-1s0"/>
-                            <constraint firstItem="r5W-kp-fk4" firstAttribute="trailing" secondItem="I5I-xF-M6s" secondAttribute="trailing" id="r4T-nC-r8Z"/>
-                            <constraint firstItem="r5W-kp-fk4" firstAttribute="centerX" secondItem="7iU-Eb-PYz" secondAttribute="centerX" id="vUG-b3-v2c"/>
-                            <constraint firstItem="r5W-kp-fk4" firstAttribute="centerY" secondItem="7iU-Eb-PYz" secondAttribute="centerY" id="y1Q-7S-Q1F"/>
+                            <constraint firstItem="aUe-Xb-Lm2" firstAttribute="top" secondItem="I5I-xF-M6s" secondAttribute="top" id="3a5-yr-ysR"/>
+                            <constraint firstItem="aUe-Xb-Lm2" firstAttribute="bottom" secondItem="I5I-xF-M6s" secondAttribute="bottom" id="b8P-dw-pVJ"/>
+                            <constraint firstAttribute="trailing" secondItem="aUe-Xb-Lm2" secondAttribute="trailing" id="e64-rm-FDw"/>
+                            <constraint firstItem="aUe-Xb-Lm2" firstAttribute="leading" secondItem="I5I-xF-M6s" secondAttribute="leading" id="sVQ-6a-FYJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vvk-Az-cW8"/>
-                    <connections>
-                        <outlet property="tableView" destination="r5W-kp-fk4" id="4hc-FD-SCK"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uFt-QX-RdQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1739" y="122"/>
+            <point key="canvasLocation" x="1501" y="96"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--View Controller-->
         <scene sceneID="z9D-oe-URD">
             <objects>
-                <viewController id="082-d1-jTk" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="082-d1-jTk" customClass="Q1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GbV-T0-C8w">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="Qne-rV-tJ4">
@@ -564,10 +558,10 @@
             </objects>
             <point key="canvasLocation" x="3905.9701492537311" y="1496.5675057208236"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--1answer View Controller-->
         <scene sceneID="3ig-pe-wKN">
             <objects>
-                <viewController id="0ZJ-ul-7Sr" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0ZJ-ul-7Sr" customClass="Q1answerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibL-SM-W88">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -635,10 +629,10 @@ D の鳥取県には、鳥取城という城があります。</string>
             </objects>
             <point key="canvasLocation" x="4535.8208955223881" y="1496.5675057208236"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--Incorrectanswer View Controller-->
         <scene sceneID="DeX-Ah-8dL">
             <objects>
-                <viewController id="R0V-UP-3OU" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R0V-UP-3OU" customClass="Q1IncorrectanswerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sPg-J4-lMv">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -688,12 +682,12 @@ D の鳥取県には、鳥取城という城があります。</string>
             </objects>
             <point key="canvasLocation" x="3906" y="2149"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--Incorrectanswer View Controller-->
         <scene sceneID="K3C-FH-RIN">
             <objects>
-                <viewController id="2pX-QN-2Q1" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2pX-QN-2Q1" customClass="Q2IncorrectanswerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="319-wF-36e">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="0lJ-Im-ZR6">
@@ -741,10 +735,10 @@ D の鳥取県には、鳥取城という城があります。</string>
             </objects>
             <point key="canvasLocation" x="3095.5223880597014" y="2138.4439359267735"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--View Controller-->
         <scene sceneID="Lr1-eF-Tgn">
             <objects>
-                <viewController id="Ksd-XX-7Nw" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ksd-XX-7Nw" customClass="Q2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="99J-1X-pCl">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -848,10 +842,10 @@ D の鳥取県には、鳥取城という城があります。</string>
             </objects>
             <point key="canvasLocation" x="3065.6716417910447" y="1496.5675057208236"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--2answer View Controller-->
         <scene sceneID="m4O-Hf-blM">
             <objects>
-                <viewController id="C5M-XQ-zpW" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="C5M-XQ-zpW" customClass="Q2answerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eph-2R-IGN">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -919,10 +913,10 @@ D の兜城は、高遠城のことです。</string>
             </objects>
             <point key="canvasLocation" x="2398.5074626865671" y="1496.5675057208236"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--View Controller-->
         <scene sceneID="Sh7-0i-R5K">
             <objects>
-                <viewController id="Nat-Hb-dIJ" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Nat-Hb-dIJ" customClass="Q3ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lmw-e9-mbh">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1026,10 +1020,10 @@ D の兜城は、高遠城のことです。</string>
             </objects>
             <point key="canvasLocation" x="2398.5074626865671" y="2288.7871853546908"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--4answer View Controller-->
         <scene sceneID="mih-eI-cQ9">
             <objects>
-                <viewController id="bBB-qt-DeN" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bBB-qt-DeN" customClass="Q4answerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7A5-sd-5gh">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1097,10 +1091,10 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
             </objects>
             <point key="canvasLocation" x="1602.9850746268655" y="2258.5812356979404"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--Incorrectanswer View Controller-->
         <scene sceneID="cHP-QK-DEZ">
             <objects>
-                <viewController id="g6e-h4-VxZ" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g6e-h4-VxZ" customClass="Q3IncorrectanswerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PZM-4d-SMf">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1150,10 +1144,10 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
             </objects>
             <point key="canvasLocation" x="1603" y="1594"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--View Controller-->
         <scene sceneID="YYY-bc-x9f">
             <objects>
-                <viewController id="qsv-WT-giD" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qsv-WT-giD" customClass="Q4ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F0l-Ag-Cpd">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1244,7 +1238,7 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="vvq-MJ-Ok1" kind="show" id="u3z-TO-rvB"/>
+                                    <segue destination="vvq-MJ-Ok1" kind="show" id="SjY-H5-ksA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1257,38 +1251,32 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
             </objects>
             <point key="canvasLocation" x="118" y="2239"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--4answer View Controller-->
         <scene sceneID="nVh-Zk-a9G">
             <objects>
-                <viewController id="vvq-MJ-Ok1" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vvq-MJ-Ok1" customClass="Q4answerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yg3-5w-BhE">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SQ0-aM-hUI">
-                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Gq-gc-1DF">
+                                <rect key="frame" x="0.0" y="183" width="402" height="619"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">松本城の階段の角度は何度でしょう
-D 61度　正解✅
-
-解説
-よく読んでおこう
-（次の問題に役立つよ）
-
-国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
+                                <string key="text">国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
 本丸正門の復元された黒門は侵入者が直進出来ない枡形門で、一の門が櫓門、二の門は高麗門になっている。
 天守4階の階段は、日本一急で61度の角度。
 石落とし11ヶ所。鉄砲狭間と矢狭間の合計125箇所。
 金箔瓦。
 乾小天守の丸太柱は日本唯一。
 一の門の左に巨石『玄蕃石』がある。推定２６.５トン。石垣は自然石をそのまま積み上げる野面積み。勾配は緩やかで直線的に積み上げられている。
-天守のある本丸を囲むように、三重の水堀がめぐる平城。</mutableString>
+天守のある本丸を囲むように、三重の水堀がめぐる平城。</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTb-L7-wyn">
-                                <rect key="frame" x="282" y="28" width="120" height="35"/>
+                                <rect key="frame" x="282" y="140" width="120" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="次のクイズへ">
@@ -1298,32 +1286,23 @@ D 61度　正解✅
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="qsv-WT-giD" kind="show" id="CBe-NU-UtV"/>
+                                    <segue destination="eBj-Ik-qPa" kind="show" id="gKq-Tk-MY0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kdi-n8-gTL"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="bottom" secondItem="kdi-n8-gTL" secondAttribute="bottom" id="5lX-0h-1EP"/>
-                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="top" secondItem="kdi-n8-gTL" secondAttribute="top" id="8XQ-uA-ESs"/>
-                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="leading" secondItem="kdi-n8-gTL" secondAttribute="leading" id="DFf-P0-uK4"/>
-                            <constraint firstItem="SQ0-aM-hUI" firstAttribute="trailing" secondItem="kdi-n8-gTL" secondAttribute="trailing" id="Sab-BH-2SH"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PsW-yC-gJj"/>
-                    <connections>
-                        <outlet property="textView" destination="SQ0-aM-hUI" id="4jS-q3-LTI"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1l-ab-dBK" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="871.64179104477603" y="1542.5629290617849"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--Incorrectanswer View Controller-->
         <scene sceneID="Urh-Cx-Q9e">
             <objects>
-                <viewController id="T8x-MZ-N1d" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="T8x-MZ-N1d" customClass="Q4IncorrectanswerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uEY-nj-mXO">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1371,12 +1350,12 @@ D 61度　正解✅
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiV-OX-BO5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119" y="1584"/>
+            <point key="canvasLocation" x="118" y="1473"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--View Controller-->
         <scene sceneID="aAr-tx-S7c">
             <objects>
-                <viewController id="eBj-Ik-qPa" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eBj-Ik-qPa" customClass="Q5ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r2r-OF-a8q">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1480,12 +1459,12 @@ D 61度　正解✅
             </objects>
             <point key="canvasLocation" x="-673.1343283582089" y="1970.9382151029747"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--Incorrectanswer View Controller-->
         <scene sceneID="1SG-hT-PZf">
             <objects>
-                <viewController id="Pgx-29-r8Y" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pgx-29-r8Y" customClass="Q5IncorrectanswerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZFy-E0-BkJ">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="松本城の石垣は、何という積み方でしょう" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY7-Nu-f5q">
@@ -1533,48 +1512,14 @@ D 61度　正解✅
             </objects>
             <point key="canvasLocation" x="-696" y="1313"/>
         </scene>
-        <!--Randam View Controller-->
+        <!--5answer View Controller-->
         <scene sceneID="tWW-pL-waK">
             <objects>
-                <viewController id="3bK-fL-eT7" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3bK-fL-eT7" customClass="Q5answerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C2u-yg-DJn">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGl-p7-2c8">
-                                <rect key="frame" x="84" y="804" width="234" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="次のクイズへ">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zRS-a1-RJW">
-                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">松本城の階段の角度は何度でしょう
-D 61度　正解✅
-
-解説
-よく読んでおこう
-（次の問題に役立つよ）
-
-国宝。現存12天守の一つ。５重の天守は黒漆塗りの下見板張（現在も本物の漆）。
-本丸正門の復元された黒門は侵入者が直進出来ない枡形門で、一の門が櫓門、二の門は高麗門になっている。
-天守4階の階段は、日本一急で61度の角度。
-石落とし11ヶ所。鉄砲狭間と矢狭間の合計125箇所。
-金箔瓦。
-乾小天守の丸太柱は日本唯一。
-一の門の左に巨石『玄蕃石』がある。推定２６.５トン。石垣は自然石をそのまま積み上げる野面積み。勾配は緩やかで直線的に積み上げられている。
-天守のある本丸を囲むように、三重の水堀がめぐる平城。</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xd-ym-xdE">
                                 <rect key="frame" x="266" y="20" width="120" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1586,34 +1531,46 @@ D 61度　正解✅
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0pv-5I-AaZ">
+                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1eJ-jK-haM"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zRS-a1-RJW" firstAttribute="leading" secondItem="1eJ-jK-haM" secondAttribute="leading" id="RgG-43-bLf"/>
-                            <constraint firstItem="zRS-a1-RJW" firstAttribute="bottom" secondItem="1eJ-jK-haM" secondAttribute="bottom" id="g5B-Kt-5tK"/>
-                            <constraint firstItem="zRS-a1-RJW" firstAttribute="trailing" secondItem="1eJ-jK-haM" secondAttribute="trailing" id="kX3-AR-zI5"/>
-                            <constraint firstItem="zRS-a1-RJW" firstAttribute="top" secondItem="1eJ-jK-haM" secondAttribute="top" id="rwm-ik-W7E"/>
+                            <constraint firstItem="0pv-5I-AaZ" firstAttribute="leading" secondItem="1eJ-jK-haM" secondAttribute="leading" id="Fpe-f5-IpP"/>
+                            <constraint firstItem="0pv-5I-AaZ" firstAttribute="top" secondItem="1eJ-jK-haM" secondAttribute="top" id="Q7e-tu-Tcy"/>
+                            <constraint firstItem="0pv-5I-AaZ" firstAttribute="bottom" secondItem="1eJ-jK-haM" secondAttribute="bottom" id="QKz-yL-IPV"/>
+                            <constraint firstItem="0pv-5I-AaZ" firstAttribute="trailing" secondItem="1eJ-jK-haM" secondAttribute="trailing" id="pP8-ZT-ojq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qa9-ln-Amg"/>
+                    <connections>
+                        <outlet property="Q5textView" destination="0pv-5I-AaZ" id="Mfo-Bx-mya"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNc-1K-zi0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1443" y="1619"/>
+            <point key="canvasLocation" x="-1443.2835820895521" y="1618.7643020594965"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="l0Z-Uc-la8"/>
-        <segue reference="2aF-Ud-R2Q"/>
-        <segue reference="CBe-NU-UtV"/>
+        <segue reference="gKq-Tk-MY0"/>
+        <segue reference="Iyh-sg-Bdb"/>
+        <segue reference="8qo-Oa-Brk"/>
         <segue reference="qln-P3-u2K"/>
         <segue reference="U6w-nN-zaZ"/>
-        <segue reference="UIq-zG-nDw"/>
+        <segue reference="O5s-Oj-xNe"/>
         <segue reference="SSs-ur-PSv"/>
         <segue reference="tzi-db-Mhb"/>
-        <segue reference="KRO-k6-I42"/>
-        <segue reference="MDm-kz-Rem"/>
+        <segue reference="NA3-Cn-dlW"/>
+        <segue reference="eud-eD-OBg"/>
         <segue reference="qfO-gG-25z"/>
     </inferredMetricsTieBreakers>
     <resources>
