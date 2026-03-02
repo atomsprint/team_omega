@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intro_image" translatesAutoresizingMaskIntoConstraints="NO" id="ipR-jM-l6A">
@@ -41,14 +41,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1252" y="820"/>
+            <point key="canvasLocation" x="1712" y="768"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="3oF-Se-I6j">
             <objects>
                 <viewController storyboardIdentifier="SecondVeiwController" id="qt8-25-T4U" customClass="SecondViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lx9-e7-dXe">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intro_image2" translatesAutoresizingMaskIntoConstraints="NO" id="Suj-2b-Vj4">
@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFd-tD-6xI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2248" y="820"/>
+            <point key="canvasLocation" x="2399" y="768"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Chf-4f-DLh">
@@ -114,7 +114,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ホーム画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pD7-VG-zuw">
@@ -252,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ad-3u-YDW" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3905.9701492537311" y="819.67963386727683"/>
+            <point key="canvasLocation" x="3724" y="768"/>
         </scene>
         <!--Chart View Controller-->
         <scene sceneID="lvD-Hx-KKo">
@@ -290,7 +290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8Y-Un-NGV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3965.6716417910447" y="129.7482837528604"/>
+            <point key="canvasLocation" x="3724" y="130"/>
         </scene>
         <!--Omegapyon View Controller-->
         <scene sceneID="7Uv-2m-Zet">
@@ -332,7 +332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfD-FI-XVQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3065.6716417910447" y="819.67963386727683"/>
+            <point key="canvasLocation" x="3066" y="768"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="BTU-vP-nP9">
@@ -397,7 +397,7 @@
                                 <rect key="frame" x="0.0" y="62" width="402" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PrefectureCell" rowHeight="60" id="nAc-km-3e4" customClass="PrefectureCell" customModule="RankingCustomApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PrefectureCell" rowHeight="60" id="nAc-km-3e4" customClass="PrefectureCell" customModule="Omega_castle" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50.333333969116211" width="402" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nAc-km-3e4" id="Dlc-K5-bLp">
@@ -449,14 +449,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uFt-QX-RdQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1501" y="96"/>
+            <point key="canvasLocation" x="1713" y="122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="z9D-oe-URD">
             <objects>
                 <viewController id="082-d1-jTk" customClass="Q1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GbV-T0-C8w">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="Qne-rV-tJ4">
@@ -847,7 +847,7 @@ D の鳥取県には、鳥取城という城があります。</string>
             <objects>
                 <viewController id="C5M-XQ-zpW" customClass="Q2answerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eph-2R-IGN">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="DNx-PP-iSz">
@@ -1558,6 +1558,56 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
             </objects>
             <point key="canvasLocation" x="-1443.2835820895521" y="1618.7643020594965"/>
         </scene>
+        <!--Randam View Controller-->
+        <scene sceneID="Oqv-ru-uxN">
+            <objects>
+                <viewController id="awV-F4-z7b" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f90-v9-1Ec">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4M-uT-H9O">
+                                <rect key="frame" x="68" y="447" width="267" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="スタート">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="45"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お城クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5b-SY-iWX">
+                                <rect key="frame" x="68" y="98" width="234" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSG-I6-DX9">
+                                <rect key="frame" x="108" y="560" width="186" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="戻る">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="34"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ランダムモード" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Pj-gg-IyZ">
+                                <rect key="frame" x="112" y="166" width="178" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BodoniOrnamentsITCTT" family="Bodoni Ornaments" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bdg-VY-1H5"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Wu-Ag-Jit"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wt9-fD-wgh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4823.8805970149251" y="129.7482837528604"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="l0Z-Uc-la8"/>
@@ -1569,9 +1619,9 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
         <segue reference="O5s-Oj-xNe"/>
         <segue reference="SSs-ur-PSv"/>
         <segue reference="tzi-db-Mhb"/>
-        <segue reference="NA3-Cn-dlW"/>
-        <segue reference="eud-eD-OBg"/>
-        <segue reference="qfO-gG-25z"/>
+        <segue reference="KRO-k6-I42"/>
+        <segue reference="3Xr-x1-Jjv"/>
+        <segue reference="E32-ik-7s2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image" width="95.333335876464844" height="172.33332824707031"/>
@@ -1583,7 +1633,7 @@ D の小田原北条は、江戸城、小田原城の主です。</string>
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
