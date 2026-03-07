@@ -336,15 +336,15 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aUe-Xb-Lm2">
                                 <rect key="frame" x="0.0" y="62" width="402" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="REw-CF-tnd">
-                                    <rect key="frame" x="0.0" y="138.66666730244953" width="402" height="35"/>
+                                <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="0aR-uR-sdA">
+                                    <rect key="frame" x="0.0" y="138.66666730244953" width="402" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="戻る">
                                         <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <segue destination="ETq-Gf-Lhz" kind="show" id="eud-eD-OBg"/>
+                                        <segue destination="ETq-Gf-Lhz" kind="show" id="cdT-xj-kwz"/>
                                     </connections>
                                 </button>
                                 <prototypes>
@@ -386,6 +386,13 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2025年の入場者数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3z-av-pz0">
+                                <rect key="frame" x="108" y="62" width="186" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I5I-xF-M6s"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
@@ -403,7 +410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uFt-QX-RdQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1713" y="122"/>
+            <point key="canvasLocation" x="1711.9402985074626" y="121.51029748283752"/>
         </scene>
         <!--Randam View Controller-->
         <scene sceneID="Oqv-ru-uxN">
@@ -608,7 +615,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="gt3-Vf-VsS"/>
         <segue reference="DWk-Jr-Una"/>
-        <segue reference="eud-eD-OBg"/>
+        <segue reference="cdT-xj-kwz"/>
         <segue reference="qfO-gG-25z"/>
     </inferredMetricsTieBreakers>
     <resources>
