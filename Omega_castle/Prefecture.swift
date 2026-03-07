@@ -10,5 +10,5 @@ import Foundation
 struct Prefecture {
     let rank: Int
     let name: String
-    let area: Double
+    let PeopleNumber: Double
 }
