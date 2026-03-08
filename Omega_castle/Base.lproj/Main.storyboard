@@ -301,7 +301,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFi-nr-l3h">
-                                <rect key="frame" x="305" y="92" width="97" height="72"/>
+                                <rect key="frame" x="305" y="109" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る">
@@ -323,7 +323,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oS9-AC-hsX" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2399" y="122"/>
+            <point key="canvasLocation" x="2398.5074626865671" y="121.51029748283752"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iu8-mK-bvQ">
@@ -622,7 +622,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="gt3-Vf-VsS"/>
         <segue reference="DWk-Jr-Una"/>
-        <segue reference="cdT-xj-kwz"/>
+        <segue reference="Vd5-4j-VAB"/>
         <segue reference="E32-ik-7s2"/>
     </inferredMetricsTieBreakers>
     <resources>
