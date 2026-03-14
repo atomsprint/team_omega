@@ -10,8 +10,7 @@ import UIKit
 class QuizViewController: UIViewController {
     @IBOutlet weak var questionNumberLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
-    
-    
+
     @IBOutlet weak var choiceAButton: UIButton!
     @IBOutlet weak var choiceBButton: UIButton!
     @IBOutlet weak var choiceCButton: UIButton!
@@ -29,7 +28,7 @@ class QuizViewController: UIViewController {
     }
     
     func startQuiz() {
-        quizzes = Array(kumamotoQuizzes.shuffled().prefix(7))
+        quizzes = Array(KumamotoQuizzes.shuffled().prefix(7))
         currentIndex = 0
         score = 0
         showQuestion()
