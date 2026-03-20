@@ -103,6 +103,17 @@ let KumamotoQuizzes: [Quiz] = [
         Quiz(question: "トランプ大統領が大統領になってから色々な事件が起きている気がする。昔、備中松山城であった事件とは？", choices: ["脱走・再入城事件","松本城の宝が無くなった","お城が半分崩れた","泥棒"], answer: 0),
         Quiz(question: "備中松山城の近くで取れるオメガ３の入った魚は何か", choices: ["鮎","鯖","鮭","鱈"], answer: 0)
 ]
+
+var index = 0
+var index2 = 0
+var correctNumber = 0
+var incorrectNumber = 0
+var gameContinue = true
+
+func choseCastle(){
+    index = Int.random(in: 0...9)
+}
+
 enum CastleID: Int, CaseIterable {
     case Kumamoto = 0
     case Matsumoto = 1
