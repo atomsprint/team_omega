@@ -7,7 +7,7 @@
 
 import UIKit
 
-class QuizViewController2: UIViewController {
+class SearchViewController: UIViewController {
     @IBOutlet weak var ageButton5_6: UIButton!
     @IBOutlet weak var ageButton7_8: UIButton!
     @IBOutlet weak var ageButton9_10: UIButton!
@@ -134,7 +134,7 @@ class QuizViewController2: UIViewController {
         if segue.identifier == "showResults" {
             
             // 遷移先が ResultViewController2 か確認
-            if let resultVC = segue.destination as? ResultViewController2 {
+            if let resultVC = segue.destination as? SearchedViewController {
                 
                 // 選択した年齢と性別を渡す
                 resultVC.selectedAge = selectedAge

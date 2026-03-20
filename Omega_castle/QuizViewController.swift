@@ -28,7 +28,7 @@ class QuizViewController: UIViewController {
     }
     
     func startQuiz() {
-        quizzes = Array(KumamotoQuizzes.shuffled().prefix(7))
+        quizzes = Array(KinojoQuizzes.shuffled().prefix(7))
         currentIndex = 0
         score = 0
         showQuestion()

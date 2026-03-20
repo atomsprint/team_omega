@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PeopleNumberViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let prefectures = PrefectureData.topFive
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UITableViewDataSource {
+extension PeopleNumberViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return prefectures.count
     }
@@ -41,7 +41,7 @@ extension ViewController: UITableViewDataSource {
 }
 
 // MARK: - UITableViewDelegate
-extension ViewController: UITableViewDelegate {
+extension PeopleNumberViewController: UITableViewDelegate {
     
 }
 

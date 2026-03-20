@@ -7,14 +7,14 @@
 
 import UIKit
 
-class ResultViewController2: UIViewController {
+class SearchedViewController: UIViewController {
     
     // 受け取る変数（? は「まだnilかも」という意味）
     var selectedAge: String?
     var selectedGender: String?
     
     @IBOutlet weak var tableView: UITableView!
-        
+    
         var recommendedBooks: [Book] = []
         
         override func viewDidLoad() {
@@ -57,7 +57,7 @@ class ResultViewController2: UIViewController {
         
     }
     
-    extension ResultViewController2: UITableViewDataSource {
+    extension SearchedViewController: UITableViewDataSource {
         
         // セルの数
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -82,7 +82,7 @@ class ResultViewController2: UIViewController {
     }
     
     // MARK: - TableView Delegate
-    extension ResultViewController2: UITableViewDelegate {
+    extension SearchedViewController: UITableViewDelegate {
         
         // セルがタップされた時
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
