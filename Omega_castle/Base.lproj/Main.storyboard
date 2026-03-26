@@ -665,7 +665,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="もう一度挑戦"/>
                                 <connections>
                                     <action selector="retryTapped:" destination="cal-Io-NHT" eventType="touchUpInside" id="5pr-XH-HO4"/>
-                                    <segue destination="IKY-Bb-DZO" kind="presentation" identifier="toQuiz" id="GDw-K4-dOJ"/>
+                                    <segue destination="IKY-Bb-DZO" kind="show" id="DiF-ZE-UUA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -679,7 +679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdx-P1-KZ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6004" y="802"/>
+            <point key="canvasLocation" x="6022" y="829"/>
         </scene>
         <!--Searched View Controller-->
         <scene sceneID="ZOb-rK-MAl">
@@ -769,7 +769,7 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="IKY-Bb-DZO" kind="show" id="zjq-CQ-Pza"/>
+                                    <segue destination="IKY-Bb-DZO" kind="show" id="MvJ-6f-cHM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTA-kZ-bT3">
@@ -787,7 +787,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説を表示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNd-Ek-sdE">
-                                <rect key="frame" x="8" y="341" width="94" height="24"/>
+                                <rect key="frame" x="8" y="341" width="386" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -799,18 +799,19 @@
                     </view>
                     <navigationItem key="navigationItem" id="Nel-nK-QGD"/>
                     <connections>
-                        <outlet property="questionLabel" destination="gBG-Sa-Ip6" id="HsL-2v-2ZY"/>
-                        <outlet property="questionNumberLabel" destination="iIl-Vb-rEl" id="nzF-HL-dL4"/>
+                        <outlet property="explanationLabel" destination="SNd-Ek-sdE" id="heY-FS-2cu"/>
+                        <outlet property="questionLabel" destination="gBG-Sa-Ip6" id="t3M-jo-WSd"/>
+                        <outlet property="questionNumberLabel" destination="iIl-Vb-rEl" id="r6G-7o-AlY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eva-kA-xLT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5331" y="829"/>
+            <point key="canvasLocation" x="5329.8507462686566" y="828.60411899313499"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9Pm-OG-hd9"/>
-        <segue reference="zjq-CQ-Pza"/>
+        <segue reference="MvJ-6f-cHM"/>
         <segue reference="DWk-Jr-Una"/>
         <segue reference="mmZ-nu-xdg"/>
         <segue reference="gav-sQ-TFd"/>
@@ -822,7 +823,7 @@
         <image name="Omegajo_image" width="124" height="125.33333587646484"/>
         <image name="usagi" width="65.333335876464844" height="85.666664123535156"/>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -8,22 +8,22 @@
 import UIKit
 
 class AnswerViewController: UIViewController {
-
+    
+    @IBOutlet weak var explanationLabel: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var questionNumberLabel: UILabel!
+    
+    var quiz: Quiz!
+    weak var sourceQuizVC: QuizViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        updateUI()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func updateUI() {
+        // questionNumberLabel.text = "第\(questionOrdinal)間 / \(totalQuestions)問"
+        let correctText = quiz.choices[quiz.answer]
+        questionLabel.text = "正解:\(correctText)"
+        explanationLabel.text = quiz.explanation
     }
-    */
-
 }

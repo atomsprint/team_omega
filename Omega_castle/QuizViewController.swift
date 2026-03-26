@@ -28,7 +28,9 @@ class QuizViewController: UIViewController {
     }
     
     func startQuiz() {
-        quizzes = Array(KinojoQuizzes.shuffled().prefix(7))
+        let castleID = CastleID.allCases.randomElement()!
+        let pool = castleQuizzes[castleID] ?? KinojoQuizzes
+        quizzes = Array(pool.prefix(7))
         currentIndex = 0
         score = 0
         showQuestion()
@@ -73,6 +75,10 @@ class QuizViewController: UIViewController {
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let answerVC = segue.destination as? AnswerViewController {
+         let q = quizzes[currentIndex]
+            answerVC.quiz = q
+        }
         if let resultVC = segue.destination as? ResultViewController {
             resultVC.score = score
         }
