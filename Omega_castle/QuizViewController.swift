@@ -29,7 +29,7 @@ class QuizViewController: UIViewController {
     
     func startQuiz() {
         let castleID = CastleID.allCases.randomElement()!
-        let pool = castleQuizzes[castleID] ?? KinojoQuizzes
+        let pool = castleQuizzes[castleID] ?? KumamotoQuizzes
         quizzes = Array(pool.prefix(7))
         currentIndex = 0
         score = 0

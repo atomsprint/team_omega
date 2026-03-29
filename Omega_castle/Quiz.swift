@@ -134,6 +134,36 @@ let KochiQuizzes: [Quiz] = [
     Quiz(question: "江戸時代には、火事がよく起こっていました。弘前城も1627年に被害を受けているが、その時の火事の原因はなんだったのか？", choices: ["落雷","焚き火","放火","火入れ"], answer: 0)
 ]
 
+let HikoneQuizzes: [Quiz] = [
+    Quiz(question: "彦根域を訪れた際、出迎えてくれる人気キャラクターは", choices: ["くまモン","ひこにゃん","ふなっしー","せいとくん"], answer: 1),
+    Quiz(question: "天守閣から一望できるものは", choices: ["大阪湾","日本海","瀬戸内海","琵琶湖"], answer: 3),
+    Quiz(question: "彦根藩主の庭園として国の名勝に指定されているものは", choices: ["兼六園","玄宮園","後楽園","偕楽園"], answer: 1),
+    Quiz(question: "井伊軍団は落主以下家臣にいたるまで甲冑のみならず、旗、馬印、吹き流し、采配など全てある色で統一されており敵陣に真っ先に突き進み果敢に攻め立てたため井伊の◯鬼と恐れられていましたが何鬼と恐れられていたのでしょうか。", choices: ["黒鬼","青鬼","緑鬼","赤鬼"], answer: 3),
+    Quiz(question: "徳川四天王のうち最も大きな知行国を与えられた、徳川家康の腹心とも言える武将は", choices: ["本田忠勝","榊原康政","井伊直政","酒井忠次"], answer: 2),
+    Quiz(question: "彦根城の建物は徳川家康の支援で、井伊家が琵琶湖周辺の廃城の建物や用材を活用して達てました。では国宝の天守はもともとどの域のものだったでしょうか。", choices: ["大津城","佐和山城","長浜城","小谷城"], answer: 0),
+    Quiz(question: "廊下橋前の天秤櫓は大手門と表門からの道が合流する要に位置し、本丸を防御するための重要な櫓ですが、右手の高石垣が築城当初に越前の岩工大工たちによって築かれた石垣でありいまだに現存しているものですが何という積み方によって積まれたものでしょうか。", choices: ["ごぼう積み","大根積み","人参積み","干し芋積み"], answer: 0)
+]
+
+let NagoyaQuizzes: [Quiz] = [
+    Quiz(question: "名城100このうちの一つ、名古屋城はどこにあるでしょうか。", choices: ["徳島県","愛知県","岐阜県","高知県"], answer: 1),
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か名古屋城の別名は、", choices: ["綿水城","なし","金鯱城","稲葉山城"], answer: 3),
+    Quiz(question: "名古屋城は徳川家康が全国の大名に築城させた城である。これをなんというか？", choices: ["天下泰平","天下布武","天下普請","天下統一"], answer: 2),
+    Quiz(question: "名古屋城が作られ始めたのは1610年のことだ。名古屋城が完成したのは何年？", choices: ["1613年","1615年","1620年","1623年"], answer: 1),
+    Quiz(question: "名古屋城のシンボルでもある有名な鯱鉾。雌の大きさは8尺3寸。雄の鯱鉾の大きさは？", choices: ["8尺","8尺3寸","8尺5寸","9尺3寸"], answer: 2),
+    Quiz(question: "明治5年にある国の公使が名古屋城を訪れた。その人の名はフォン・プラントン。どこの国の人？", choices: ["イギリス","ドイツ","フランス","ギリシャ"], answer: 1),
+    Quiz(question: "名古屋城の本丸御殿は戦争で焼失したが、2018年に復元された。この本丸御殿は一部屋を除いて全てある種類の木材が使われている。その木材は何か？", choices: ["桧","松","槙","杉"], answer: 0)
+]
+
+let GoryokakuQuizzes: [Quiz] = [
+    Quiz(question: "名城100このうちの一つ、五稜郭はどこにあるでしょうか。", choices: ["北海道","青森県","山形県","岩手県"], answer: 0),
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か五稜郭の別名は？", choices: ["霧ヶ城","なし","柳野城","鶴ヶ城"], answer: 2),
+    Quiz(question: "五稜郭はどのような形をしているか？", choices: ["六角形","星形","三角形","楕円形"], answer: 1),
+    Quiz(question: "江戸時代の末期に築城された星型の五稜郭は防御に優れているが、どの国との戦いを想定していたか？", choices: ["清","イギリス","ロシア帝国","アメリカ合衆国"], answer: 3),
+    Quiz(question: "このような星型の城は日本に2つある。もう一つは何城か？", choices: ["龍岡城","松前城","多賀城","白河小峰城"], answer: 2),
+    Quiz(question: "五稜郭を設計したのは蘭学者の武田斐三郎だが、どこの国から学んだか？", choices: ["イギリス","ドイツ","フランス","アメリカ合衆国"], answer: 2),
+    Quiz(question: "明治新政府と旧幕府軍の最後の戦いが行われた箱館戦争で戦死した、新撰組副長の名は？", choices: ["近藤勇","沖田総司","永倉新八","土方歳三"], answer: 3)
+]
+
 var index = 0
 // var index2 = 0
 // var correctNumber = 0
@@ -157,7 +187,11 @@ enum CastleID: Int, CaseIterable {
     case BitchuMatsuyama = 9
     case Hirosaki = 10
     case Kochi = 11
+    case Hikone = 12
+    case Nagoya = 13
+    case Goryokaku = 14
 }
+
 let castleQuizzes: [CastleID: [Quiz]] = [
     .Kumamoto: KumamotoQuizzes,
     .Matsumoto: MatsumotoQuizzes,
@@ -170,5 +204,8 @@ let castleQuizzes: [CastleID: [Quiz]] = [
     .Yamagata: YamagataQuizzes,
     .BitchuMatsuyama: BitchuMatsuyamaQuizzes,
     .Hirosaki: HirosakiQuizzes,
-    .Kochi: KochiQuizzes
+    .Kochi: KochiQuizzes,
+    .Hikone: HikoneQuizzes,
+    .Nagoya: NagoyaQuizzes,
+    .Goryokaku: GoryokakuQuizzes
 ]

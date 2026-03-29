@@ -14,13 +14,9 @@ class PeopleNumberViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         tableView.dataSource = self
         tableView.delegate = self
     }
-
-
 }
 
 extension PeopleNumberViewController: UITableViewDataSource {
@@ -44,4 +40,5 @@ extension PeopleNumberViewController: UITableViewDataSource {
 extension PeopleNumberViewController: UITableViewDelegate {
     
 }
+
 
