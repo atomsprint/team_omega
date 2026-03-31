@@ -1,13 +1,13 @@
 //
-//  SecondViewController.swift
-//  SwichScreenApp
+//  AppNameViewController.swift
+//  Omega_castle
 //
-//  Created by Takahashi Haruno on 2025/11/15.
+//  Created by 鈴木久美 on 2026/03/31.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class AppNameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

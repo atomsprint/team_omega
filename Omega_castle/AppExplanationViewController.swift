@@ -1,13 +1,13 @@
 //
-//  FirstViewController.swift
-//  SwichScreenApp
+//  AppExplanationViewController.swift
+//  Omega_castle
 //
-//  Created by Takahashi Haruno on 2025/11/15.
+//  Created by 鈴木久美 on 2026/03/31.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class AppExplanationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
