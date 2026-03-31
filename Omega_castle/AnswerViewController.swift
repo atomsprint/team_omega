@@ -14,6 +14,8 @@ class AnswerViewController: UIViewController {
     @IBOutlet weak var questionNumberLabel: UILabel!
     
     var quiz: Quiz!
+    var questionOrdinal: Int = 1
+    var tatleQuestions: Int = 1
     weak var sourceQuizVC: QuizViewController?
     
     override func viewDidLoad() {
@@ -21,7 +23,7 @@ class AnswerViewController: UIViewController {
         updateUI()
     }
     func updateUI() {
-        // questionNumberLabel.text = "第\(questionLabel.tag = 1)間 / \(questionNumberLabel.text!)問"
+        questionNumberLabel.text = "第\(questionOrdinal)間 / \(tatleQuestions)問"
         let correctText = quiz.choices[quiz.answer]
         questionLabel.text = "正解:\(correctText)"
         explanationLabel.text = quiz.explanation

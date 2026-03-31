@@ -78,6 +78,9 @@ class QuizViewController: UIViewController {
         if let answerVC = segue.destination as? AnswerViewController {
          let q = quizzes[currentIndex]
             answerVC.quiz = q
+            answerVC.questionOrdinal = currentIndex + 1
+            answerVC.tatleQuestions = quizzes.count
+            answerVC.sourceQuizVC = self
         }
         if let resultVC = segue.destination as? ResultViewController {
             resultVC.score = score
