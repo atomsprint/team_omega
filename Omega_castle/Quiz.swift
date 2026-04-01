@@ -115,7 +115,7 @@ let BitchuMatsuyamaQuizzes: [Quiz] = [
 ]
 
 let HirosakiQuizzes: [Quiz] = [
-    Quiz(question: "現存12天守。日本の城で12個しかないうちの一つ、弘前城はどこにあるでしょうか。", choices: ["徳島県","岡山県","鹿児島県","鳥取県"], answer: 1),
+    Quiz(question: "現存12天守。日本の城で12個しかないうちの一つ、弘前城はどこにあるでしょうか。", choices: ["徳島県","青森県","鹿児島県","鳥取県"], answer: 1),
     Quiz(question: "日本100名城の中で90以上の別名がある。その中から弘前城の別名は、", choices: ["なし","月山城","蕗城","金亀城"], answer: 0),
     Quiz(question: "人は今、世界で増え続けている。昔に弘前城を築いた人は?", choices: ["秋庭重信","森忠正","堀尾吉晴","伊達政宗"], answer: 0),
     Quiz(question: "弘前城の魅力は何でしょう", choices: ["漆黒の天守","切込接の石垣","神経痛の効くモール温泉","城址を埋め尽くす５千本の桜"], answer: 3),
