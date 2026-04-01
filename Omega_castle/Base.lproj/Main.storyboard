@@ -774,6 +774,7 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="nextQuestionTapped:" destination="juI-qF-mIA" eventType="touchUpInside" id="kDN-cB-QqC"/>
                                     <segue destination="IKY-Bb-DZO" kind="show" id="MvJ-6f-cHM"/>
                                 </connections>
                             </button>

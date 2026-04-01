@@ -27,5 +27,13 @@ class AnswerViewController: UIViewController {
         let correctText = quiz.choices[quiz.answer]
         questionLabel.text = "正解:\(correctText)"
         explanationLabel.text = quiz.explanation
+        explanationLabel.numberOfLines = 0
+    }
+    @IBAction func nextQuestionTapped(_ sender: UIButton) {
+        guard let quizVC = sourceQuizVC else { return }
+        navigationController?.popViewController(animated: true)
+        DispatchQueue.main.async {
+        //    quizVC.advanceAfterAnswer()
+        }
     }
 }
