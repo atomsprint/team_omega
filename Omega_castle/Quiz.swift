@@ -164,6 +164,16 @@ let GoryokakuQuizzes: [Quiz] = [
     Quiz(question: "明治新政府と旧幕府軍の最後の戦いが行われた箱館戦争で戦死した、新撰組副長の名は？", choices: ["近藤勇","沖田総司","永倉新八","土方歳三"], answer: 3)
 ]
 
+let OshiQuizzes: [Quiz] = [
+    Quiz(question: "名城100このうちの一つ、忍城はどこにあるでしょうか。", choices: ["神奈川県","愛知県","埼玉県","静岡県"], answer: 0),
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か忍城の別名は？", choices: ["霧ヶ城","なし","浮城","鶴ヶ城"], answer: 2),
+    Quiz(question: "忍城を築いたのは何氏？", choices: ["成田氏","上杉氏","北条氏","太田氏"], answer: 1),
+    Quiz(question: "江戸時代の末期に築城された星型の五稜郭は防御に優れているが、どの国との戦いを想定していたか？", choices: ["清","イギリス","ロシア帝国","アメリカ合衆国"], answer: 3),
+    Quiz(question: "このような星型の城は日本に2つある。もう一つは何城か？", choices: ["龍岡城","松前城","多賀城","白河小峰城"], answer: 2),
+    Quiz(question: "五稜郭を設計したのは蘭学者の武田斐三郎だが、どこの国から学んだか？", choices: ["イギリス","ドイツ","フランス","アメリカ合衆国"], answer: 2),
+    Quiz(question: "明治新政府と旧幕府軍の最後の戦いが行われた箱館戦争で戦死した、新撰組副長の名は？", choices: ["近藤勇","沖田総司","永倉新八","土方歳三"], answer: 3)
+]
+
 var index = 0
 // var index2 = 0
 // var correctNumber = 0
@@ -190,6 +200,7 @@ enum CastleID: Int, CaseIterable {
     case Hikone = 12
     case Nagoya = 13
     case Goryokaku = 14
+    case Oshi = 15
 }
 
 let castleQuizzes: [CastleID: [Quiz]] = [
@@ -207,5 +218,6 @@ let castleQuizzes: [CastleID: [Quiz]] = [
     .Kochi: KochiQuizzes,
     .Hikone: HikoneQuizzes,
     .Nagoya: NagoyaQuizzes,
-    .Goryokaku: GoryokakuQuizzes
+    .Goryokaku: GoryokakuQuizzes,
+    .Oshi: OshiQuizzes
 ]
