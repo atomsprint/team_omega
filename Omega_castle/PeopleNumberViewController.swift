@@ -8,6 +8,7 @@
 import UIKit
 
 class PeopleNumberViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
     
     let prefectures = PrefectureData.topFive
