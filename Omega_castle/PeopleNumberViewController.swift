@@ -20,18 +20,18 @@ class PeopleNumberViewController: UIViewController {
     }
 }
 
+// MARK: - UITableViewDataSource
 extension PeopleNumberViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return prefectures.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PrefectureCell", for: indexPath) as! PrefectureCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let prefecture = prefectures[indexPath.row]
         
-        cell.rankLabel.text = "\(prefecture.rank)"
-        cell.nameLabel.text = prefecture.name
-        cell.areaLabel.text = "\(prefecture.PeopleNumber) 人"
+        cell.textLabel?.text = "\(prefecture.rank)位: \(prefecture.name)"
+        cell.detailTextLabel?.text = "\(prefecture.PeopleNumber) 人"
         
         return cell
     }
@@ -41,5 +41,4 @@ extension PeopleNumberViewController: UITableViewDataSource {
 extension PeopleNumberViewController: UITableViewDelegate {
     
 }
-
 
