@@ -13,26 +13,9 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AppExplanationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intro_image" translatesAutoresizingMaskIntoConstraints="NO" id="ipR-jM-l6A">
-                                <rect key="frame" x="0.0" y="-285" width="402" height="1399"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcJ-YD-wNh">
-                                <rect key="frame" x="214" y="767" width="172" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="戻る">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.45098039215686275" green="0.61176470588235299" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="46"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1G0-q9-VJB">
                                 <rect key="frame" x="16" y="767" width="172" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,6 +32,30 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="atA-YX-4qP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZg-8k-YQO">
+                                <rect key="frame" x="214" y="767" width="172" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="戻る">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qt8-25-T4U" kind="show" id="Ya3-O4-MgF"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="Dlv-iU-Ydp">
+                                <rect key="frame" x="0.0" y="20" width="402" height="558"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="説明文章" translatesAutoresizingMaskIntoConstraints="NO" id="gYQ-MY-gVm">
+                                <rect key="frame" x="70" y="586" width="262" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,7 +71,7 @@
             <objects>
                 <viewController storyboardIdentifier="SecondVeiwController" id="qt8-25-T4U" customClass="AppNameViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lx9-e7-dXe">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yC6-HE-BTc">
@@ -116,7 +123,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="オメガ城!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pD7-VG-zuw">
@@ -215,20 +222,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1C1-ft-ruW">
-                                <rect key="frame" x="174" y="706" width="56" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="戻る">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ETq-Gf-Lhz" kind="show" id="tdr-5b-ueQ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="クリア表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBU-G9-TYY">
                                 <rect key="frame" x="107" y="149" width="188" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -236,15 +229,30 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lop-9F-9B0">
+                                <rect key="frame" x="112" y="679" width="178" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="5oM-uD-gWj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YfN-3a-9DV"/>
-                        <color key="backgroundColor" red="0.9603467583656311" green="0.94050759077072144" blue="0.88898086547851562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="b6z-hh-5ag"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8Y-Un-NGV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4643.2835820895516" y="129.7482837528604"/>
+            <point key="canvasLocation" x="4638.8059701492539" y="129.7482837528604"/>
         </scene>
         <!--Omegapyon View Controller-->
         <scene sceneID="7Uv-2m-Zet">
@@ -265,24 +273,24 @@
                                 <rect key="frame" x="61" y="173" width="281" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOp-gR-5yI">
-                                <rect key="frame" x="168" y="705" width="66" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22S-MD-PzK">
+                                <rect key="frame" x="112" y="682" width="178" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="戻る">
+                                <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ETq-Gf-Lhz" kind="show" id="wgB-Tu-Yl2"/>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="sth-mo-8iq"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Evi-5i-PHq"/>
-                        <color key="backgroundColor" red="0.9603467583656311" green="0.94050759077072144" blue="0.88898086547851562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="sOe-Cp-eZU"/>
                 </viewController>
@@ -305,7 +313,7 @@
                                     <rect key="frame" x="0.0" y="138.66666730244953" width="402" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="戻る">
+                                    <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
                                         <backgroundConfiguration key="background">
                                             <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </backgroundConfiguration>
@@ -358,7 +366,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I5I-xF-M6s"/>
-                        <color key="backgroundColor" red="0.9603467583656311" green="0.94050759077072144" blue="0.88898086547851562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="aUe-Xb-Lm2" firstAttribute="leading" secondItem="I5I-xF-M6s" secondAttribute="leading" id="k3W-Bb-0qx"/>
                             <constraint firstItem="aUe-Xb-Lm2" firstAttribute="trailing" secondItem="I5I-xF-M6s" secondAttribute="trailing" id="lWf-YP-x8N"/>
@@ -383,21 +391,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdp-QY-1O3">
-                                <rect key="frame" x="136" y="534" width="131" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="戻る">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ETq-Gf-Lhz" kind="show" id="iPg-RQ-EJN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oi0-pQ-F5N">
                                 <rect key="frame" x="84" y="351" width="234" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -420,6 +413,21 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdp-QY-1O3">
+                                <rect key="frame" x="112" y="531" width="178" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="iPg-RQ-EJN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bdg-VY-1H5"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -504,21 +512,6 @@
                                     <segue destination="juI-qF-mIA" kind="show" id="3PG-4L-IKF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ki4-Yy-oCh">
-                                <rect key="frame" x="136" y="731" width="131" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="戻る">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="awV-F4-z7b" kind="show" id="mbG-fF-cfM"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お城クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvi-uh-WkR">
                                 <rect key="frame" x="89" y="62" width="225" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -526,6 +519,21 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ki4-Yy-oCh">
+                                <rect key="frame" x="112" y="731" width="178" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="pI3-q7-Xjq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZP6-tg-UwK"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -580,6 +588,21 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNp-t6-dSF">
+                                <rect key="frame" x="112" y="702" width="178" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="D2f-Hh-jJG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aqx-AA-hRO"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -610,7 +633,7 @@
                                     <rect key="frame" x="0.0" y="130.66666730244953" width="370" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="戻る">
+                                    <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
                                         <backgroundConfiguration key="background">
                                             <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </backgroundConfiguration>
@@ -653,7 +676,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A2p-dx-1ls"/>
-                        <color key="backgroundColor" red="0.9603467583656311" green="0.94050759077072144" blue="0.88898086547851562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="OGt-j2-kmd"/>
                     <connections>
@@ -672,28 +695,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEY-bF-i0y">
-                                <rect key="frame" x="108" y="674" width="186" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="次の問題へ">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="34"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="nextQuestionTapped:" destination="juI-qF-mIA" eventType="touchUpInside" id="kDN-cB-QqC"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="回答を表示" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBG-Sa-Ip6">
-                                <rect key="frame" x="8" y="315" width="386" height="103"/>
+                                <rect key="frame" x="8" y="315" width="386" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説を表示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNd-Ek-sdE">
-                                <rect key="frame" x="8" y="426" width="386" height="224"/>
+                                <rect key="frame" x="8" y="392" width="386" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
@@ -713,6 +723,34 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEY-bF-i0y">
+                                <rect key="frame" x="108" y="624" width="186" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="次の問題へ">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="34"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextQuestionTapped:" destination="juI-qF-mIA" eventType="touchUpInside" id="kDN-cB-QqC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njk-Uh-JqI">
+                                <rect key="frame" x="112" y="719" width="178" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ホームへ戻る">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.45098039220000002" green="0.61176470589999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ETq-Gf-Lhz" kind="show" id="NBF-Gr-dBw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rON-Pm-ZFL"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -750,17 +788,15 @@
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="GDk-mb-wXn"/>
-        <segue reference="rp5-8T-1uk"/>
-        <segue reference="cdT-xj-kwz"/>
+        <segue reference="atA-YX-4qP"/>
+        <segue reference="Ya3-O4-MgF"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Intro_image" width="176.33332824707031" height="320.33334350585938"/>
         <image name="Intro_image2" width="148.66667175292969" height="216"/>
         <image name="Omegajo_image" width="52.666667938232422" height="52.666667938232422"/>
         <image name="usagi" width="65.333335876464844" height="85.666664123535156"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="松本城" width="187" height="258"/>
+        <image name="説明文章" width="230" height="151"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
