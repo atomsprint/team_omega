@@ -17,6 +17,7 @@ class AnswerViewController: UIViewController {
     var questionOrdinal: Int = 1
     var tatleQuestions: Int = 1
     weak var sourceQuizVC: QuizViewController?
+    var onFinish: (() -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +33,8 @@ class AnswerViewController: UIViewController {
     @IBAction func nextQuestionTapped(_ sender: UIButton) {
         // guard let quizVC = sourceQuizVC else { return }
         navigationController?.popViewController(animated: true)
+        onFinish?()
+        dismiss(animated: true, completion: nil)
         DispatchQueue.main.async {
         //    quizVC.advanceAfterAnswer()
         }

@@ -65,7 +65,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Omegajo_image" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
@@ -424,7 +424,7 @@
             <objects>
                 <viewController id="IKY-Bb-DZO" customClass="QuizViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gCs-vc-rD5">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="問題番号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXE-N7-tfz">
@@ -768,8 +768,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
-        <segue reference="EVU-kr-EJH"/>
-        <segue reference="5oM-uD-gWj"/>
+        <segue reference="GDk-mb-wXn"/>
+        <segue reference="NBF-Gr-dBw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image2" width="148.66667175292969" height="216"/>

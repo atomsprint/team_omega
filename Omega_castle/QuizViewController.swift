@@ -10,7 +10,7 @@ import UIKit
 class QuizViewController: UIViewController {
     @IBOutlet weak var questionNumberLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
-
+    
     @IBOutlet weak var choiceAButton: UIButton!
     @IBOutlet weak var choiceBButton: UIButton!
     @IBOutlet weak var choiceCButton: UIButton!
@@ -58,15 +58,10 @@ class QuizViewController: UIViewController {
         } else {
             selectedIndex = 3
         }
-        
         // 正解チェック
         if selectedIndex == quizzes[currentIndex].answer {
             score += 1
         }
-        
-        // 次の問題へ
-        currentIndex += 1
-        
         if currentIndex < 7 {
             showQuestion()
         } else {
@@ -76,14 +71,18 @@ class QuizViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let answerVC = segue.destination as? AnswerViewController {
-         let q = quizzes[currentIndex]
+            let q = quizzes[currentIndex]
             answerVC.quiz = q
             answerVC.questionOrdinal = currentIndex + 1
             answerVC.tatleQuestions = quizzes.count
             answerVC.sourceQuizVC = self
-        }
-        if let resultVC = segue.destination as? ResultViewController {
-            resultVC.score = score
+            answerVC.onFinish = { [weak self] in
+                print("AnswerVCが閉じられました")
+                self?.currentIndex += 1
+            }
+                if let resultVC = segue.destination as? ResultViewController {
+                    resultVC.score = score
+                }
+            }
         }
     }
-}
