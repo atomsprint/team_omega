@@ -662,6 +662,7 @@
                     <navigationItem key="navigationItem" id="OGt-j2-kmd"/>
                     <connections>
                         <outlet property="tableView" destination="Mus-XH-0he" id="wid-PK-b1Q"/>
+                        <segue destination="W6I-zW-luQ" kind="show" identifier="お城" id="Tnx-cR-aDP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ley-UF-KPV" sceneMemberID="firstResponder"/>
@@ -764,6 +765,57 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eed-rU-RWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2440" y="768"/>
+        </scene>
+        <!--Castle Explanation View Controller-->
+        <scene sceneID="oWl-fm-akU">
+            <objects>
+                <viewController id="W6I-zW-luQ" customClass="CastleExplanationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eEH-8n-y4U">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お城検索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5f-HS-zBO">
+                                <rect key="frame" x="107" y="62" width="188" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTD-CN-iMI">
+                                <rect key="frame" x="124" y="162" width="152" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsf-sh-Zhw">
+                                <rect key="frame" x="116" y="229" width="171" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOb-BK-wWt">
+                                <rect key="frame" x="16" y="306" width="370" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xQY-eP-hlK"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FEc-Iv-3Gz"/>
+                    <connections>
+                        <outlet property="BuiltPeople" destination="Fsf-sh-Zhw" id="4Qp-Ya-OyM"/>
+                        <outlet property="CastleName" destination="zTD-CN-iMI" id="XLf-tM-Ijs"/>
+                        <outlet property="Explanation" destination="TOb-BK-wWt" id="IkH-xF-5lN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmE-el-Gbf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4023.8805970149251" y="-1247.3684210526314"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
