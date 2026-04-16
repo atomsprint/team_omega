@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8uK-r9-OEA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
@@ -58,14 +58,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFd-tD-6xI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3223.8805970149251" y="767.50572082379858"/>
+            <point key="canvasLocation" x="4143.2835820895516" y="767.50572082379858"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="0cD-75-aeS">
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Omegajo_image" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
@@ -150,7 +150,7 @@
                                     <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="4rt-ZU-hPi" kind="show" id="Rp2-Ny-VKg"/>
+                                    <segue destination="TcA-wn-Dcr" kind="show" id="MYc-Y5-1ps"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="お城を検索して情報を見ることが出来ます。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X9p-Z1-Ppp">
@@ -189,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="buF-B6-wST" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3985.0746268656712" y="129.7482837528604"/>
+            <point key="canvasLocation" x="4904.4776119402986" y="129.7482837528604"/>
         </scene>
         <!--Clear Chart View Controller-->
         <scene sceneID="lvD-Hx-KKo">
@@ -229,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8Y-Un-NGV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4638.8059701492539" y="129.7482837528604"/>
+            <point key="canvasLocation" x="5558.2089552238804" y="129.7482837528604"/>
         </scene>
         <!--Omegapyon View Controller-->
         <scene sceneID="7Uv-2m-Zet">
@@ -273,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfD-FI-XVQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3985.0746268656712" y="767.50572082379858"/>
+            <point key="canvasLocation" x="4904.4776119402986" y="767.50572082379858"/>
         </scene>
         <!--People Number View Controller-->
         <scene sceneID="iu8-mK-bvQ">
@@ -352,13 +352,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vvk-Az-cW8"/>
-                    <connections>
-                        <outlet property="tableView" destination="aUe-Xb-Lm2" id="SnW-LB-StL"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uFt-QX-RdQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3225" y="130"/>
+            <point key="canvasLocation" x="4143.2835820895516" y="129.7482837528604"/>
         </scene>
         <!--Randam View Controller-->
         <scene sceneID="Oqv-ru-uxN">
@@ -417,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wt9-fD-wgh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4755.2238805970146" y="828.60411899313499"/>
+            <point key="canvasLocation" x="5674.6268656716411" y="828.60411899313499"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="6Qk-JK-nCi">
@@ -531,7 +528,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqU-RY-Kwp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5558.2089552238804" y="828.60411899313499"/>
+            <point key="canvasLocation" x="6477.6119402985069" y="828.60411899313499"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="ken-fu-OxB">
@@ -596,7 +593,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdx-P1-KZ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7125.373134328358" y="828.60411899313499"/>
+            <point key="canvasLocation" x="8044.7761194029845" y="828.60411899313499"/>
         </scene>
         <!--Searched View Controller-->
         <scene sceneID="ZOb-rK-MAl">
@@ -606,9 +603,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mus-XH-0he">
-                                <rect key="frame" x="16" y="124" width="370" height="682"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mus-XH-0he">
+                                <rect key="frame" x="16" y="186" width="370" height="620"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="qlE-xm-BwS">
                                     <rect key="frame" x="0.0" y="130.66666730244953" width="370" height="44"/>
@@ -620,9 +616,12 @@
                                         </backgroundConfiguration>
                                         <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <segue destination="ETq-Gf-Lhz" kind="show" id="HPg-92-khX"/>
+                                    </connections>
                                 </button>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" textLabel="3GW-eG-g37" detailTextLabel="oX2-gL-JBt" style="IBUITableViewCellStyleSubtitle" id="YsQ-wW-LhD">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="3GW-eG-g37" detailTextLabel="oX2-gL-JBt" style="IBUITableViewCellStyleSubtitle" id="YsQ-wW-LhD">
                                         <rect key="frame" x="0.0" y="50.333333969116211" width="370" height="52"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YsQ-wW-LhD" id="kUZ-gJ-JDE">
@@ -636,8 +635,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oX2-gL-JBt">
-                                                    <rect key="frame" x="19.999999999999996" y="24.333333333333336" width="52.666666666666664" height="18"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oX2-gL-JBt">
+                                                    <rect key="frame" x="20.000000000000004" y="24.333333333333336" width="39.333333333333336" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
@@ -648,9 +647,8 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お城検索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKA-pf-O0a">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="お城検索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKA-pf-O0a">
                                 <rect key="frame" x="107" y="62" width="188" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <color key="textColor" red="0.92549019610000005" green="0.56078431370000004" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -658,16 +656,23 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A2p-dx-1ls"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Mus-XH-0he" secondAttribute="bottom" constant="-4" id="H73-cG-jXf"/>
+                            <constraint firstItem="WKA-pf-O0a" firstAttribute="top" secondItem="A2p-dx-1ls" secondAttribute="top" constant="62" id="OVx-FY-YKe"/>
+                            <constraint firstItem="Mus-XH-0he" firstAttribute="leading" secondItem="A2p-dx-1ls" secondAttribute="leading" constant="16" id="TZq-Ix-qb9"/>
+                            <constraint firstItem="WKA-pf-O0a" firstAttribute="centerX" secondItem="Mus-XH-0he" secondAttribute="centerX" id="jlI-HU-8aq"/>
+                            <constraint firstItem="A2p-dx-1ls" firstAttribute="trailing" secondItem="Mus-XH-0he" secondAttribute="trailing" constant="16" id="obb-jp-QaU"/>
+                            <constraint firstItem="Mus-XH-0he" firstAttribute="top" secondItem="WKA-pf-O0a" secondAttribute="bottom" constant="2" id="pVx-ti-d5L"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OGt-j2-kmd"/>
                     <connections>
-                        <outlet property="tableView" destination="Mus-XH-0he" id="wid-PK-b1Q"/>
-                        <segue destination="W6I-zW-luQ" kind="show" identifier="お城" id="Tnx-cR-aDP"/>
+                        <segue destination="W6I-zW-luQ" kind="show" identifier="Castle" id="Tnx-cR-aDP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ley-UF-KPV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3983.5820895522384" y="-544.39359267734551"/>
+            <point key="canvasLocation" x="4869" y="-1247"/>
         </scene>
         <!--Answer View Controller-->
         <scene sceneID="8Bl-NW-6by">
@@ -746,32 +751,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eva-kA-xLT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6400" y="828.60411899313499"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Krl-Xx-KPG">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8uK-r9-OEA" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ltn-ry-5eW">
-                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="qt8-25-T4U" kind="relationship" relationship="rootViewController" id="uOB-Wo-nWN"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eed-rU-RWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2440" y="768"/>
+            <point key="canvasLocation" x="7319.4029850746265" y="828.60411899313499"/>
         </scene>
         <!--Castle Explanation View Controller-->
         <scene sceneID="oWl-fm-akU">
             <objects>
                 <viewController id="W6I-zW-luQ" customClass="CastleExplanationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEH-8n-y4U">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お城検索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5f-HS-zBO">
@@ -802,6 +789,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwa-U8-HFa">
+                                <rect key="frame" x="124" y="683" width="152" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="戻る"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xQY-eP-hlK"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -815,13 +808,71 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wmE-el-Gbf" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4023.8805970149251" y="-1247.3684210526314"/>
+            <point key="canvasLocation" x="3983.5820895522384" y="-1247.3684210526314"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1tS-vL-8cI">
+            <objects>
+                <viewController id="TcA-wn-Dcr" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xqM-vF-jry">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あ行のお城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFz-Fb-XDw">
+                                <rect key="frame" x="120" y="208" width="162" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aV8-7Y-gJC">
+                                <rect key="frame" x="91" y="627" width="220" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="いいえ"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gB6-hc-06p">
+                                <rect key="frame" x="91" y="472" width="220" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="はい"/>
+                                <connections>
+                                    <segue destination="4rt-ZU-hPi" kind="show" identifier="あ行のお城" id="Sv0-55-Ch7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ufs-qF-qG0"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qrZ-rq-Qzi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o4j-fe-Afj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3985.0746268656712" y="-553.31807780320366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Anp-qR-2qr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="317-Kg-MA5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tho-WL-10q">
+                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qt8-25-T4U" kind="relationship" relationship="rootViewController" id="PNd-XO-vZz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TQV-Xb-RWO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3223.8805970149251" y="767.50572082379858"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="GDk-mb-wXn"/>
-        <segue reference="NBF-Gr-dBw"/>
+        <segue reference="HPg-92-khX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image2" width="148.66667175292969" height="216"/>

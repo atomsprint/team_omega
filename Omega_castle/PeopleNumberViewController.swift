@@ -9,14 +9,14 @@ import UIKit
 
 class PeopleNumberViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var TableView: UITableView!
     
     let prefectures = PrefectureData.topFive
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
-        tableView.delegate = self
+        TableView.dataSource = self
+        TableView.delegate = self
     }
 }
 
