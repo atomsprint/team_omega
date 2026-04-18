@@ -174,6 +174,26 @@ let OshiQuizzes: [Quiz] = [
     Quiz(question: "忍城が豊臣軍（石田三成）に攻め入られた時、城主成田氏長の妻（真名女）が自ら堀を堀ったいう山本周五郎による物語がある。その物語の中で真名女は何を使って堀を掘ったか？", choices: ["櫛","簪","笄","鏡"], answer: 3, explanation: "解説準備中")
 ]
 
+let OosakaQuizzes: [Quiz] = [
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か大阪城の別名は？", choices: ["千鳥城","烏城","綿城","酔月城"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "大阪は淀川や大和川など大小の河川が流れる自然の要害に恵まれた土地である。大阪城が築かれる前にこの地に本拠を置いていた宗教団体は何か？", choices: ["浄土真宗本願寺","真言宗本願寺","日蓮宗本願寺","天台宗本願寺"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "大阪城を築いた人は?", choices: ["豊臣秀吉","織田信長","徳川家康","柴田勝家"], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "大阪城は安土桃山時代に築城され、江戸時代に再建されている。この時代に庶民がよく食べていたものは何？", choices: ["鶏の唐揚げ","フグの刺身","豚の角煮","サバの味噌漬け"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "1615年大阪城を本拠地としていた豊臣氏が徳川家康に敗北し、大阪城は落城する。この戦いをなんというか？", choices: ["大阪春の陣","大坂夏の陣","大阪秋の陣","大坂冬の陣"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "大阪城には大判や小判を保管する「御金蔵」という建物がある。1730年と40年にこの御金蔵からお金が盗まれる事件が起こった。合わせていくら盗まれたか？", choices: ["2000両","3000両","4000両","5000両"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "大阪城の本丸東面の石垣は日本一の高さを誇る。地上から何メートルか？", choices: ["16m","20m","27m","32m"], answer: 3, explanation: "解説準備中")
+]
+
+let HimejiQuizzes: [Quiz] = [
+    Quiz(question: "名城100このうちの一つ、姫路城はどこにあるでしょうか。", choices: ["兵庫県","愛知県","岐阜県","高知県"], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か姫路城の別名は？", choices: ["霧ヶ城","白鷺城","佐々木城","鶴ヶ城"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "1601年〜1609年にかけて姫路城を現在の姿に大改装したのは誰か？", choices: ["豊臣秀吉","池田輝政","赤松則村","本田忠政"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "姫路城には何この門があったか？", choices: ["84個","10個","97個","77個"], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "次の4つのうち姫路城の伝説でないものはどれか？", choices: ["お菊井戸","姥ヶ石","大工の源兵衛","霧の大蛇"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "姫路城には警護の者が万が一に備えて隠れる、小さな部屋がある。この部屋をなんと言うか？", choices: ["武者隠し","武士隠し","忍者隠し","侍隠し"], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "姫路城の大天守にはあるものがある。それは四つのうちどれ？", choices: ["天窓","神社","お風呂","鏡"], answer: 1, explanation: "解説準備中")
+]
+
 var index = 0
 // var index2 = 0
 // var correctNumber = 0
@@ -201,6 +221,8 @@ enum CastleID: Int, CaseIterable {
     case Nagoya = 13
     case Goryokaku = 14
     case Oshi = 15
+    case Oosaka = 16
+    case Himeji = 17
 }
 
 let castleQuizzes: [CastleID: [Quiz]] = [
@@ -219,6 +241,7 @@ let castleQuizzes: [CastleID: [Quiz]] = [
     .Hikone: HikoneQuizzes,
     .Nagoya: NagoyaQuizzes,
     .Goryokaku: GoryokakuQuizzes,
-    .Oshi: OshiQuizzes
+    .Oshi: OshiQuizzes,
+    .Oosaka: OosakaQuizzes,
+    .Himeji: HimejiQuizzes
 ]
-//Hello
