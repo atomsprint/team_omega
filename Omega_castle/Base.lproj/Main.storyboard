@@ -68,7 +68,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Omegajo_image" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
                                 <rect key="frame" x="133" y="728" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -414,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wt9-fD-wgh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5674.6268656716411" y="828.60411899313499"/>
+            <point key="canvasLocation" x="5558" y="768"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="6Qk-JK-nCi">
@@ -528,7 +528,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqU-RY-Kwp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6477.6119402985069" y="828.60411899313499"/>
+            <point key="canvasLocation" x="6225" y="768"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="ken-fu-OxB">
@@ -593,7 +593,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdx-P1-KZ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8044.7761194029845" y="828.60411899313499"/>
+            <point key="canvasLocation" x="7588" y="768"/>
         </scene>
         <!--Searched View Controller-->
         <scene sceneID="ZOb-rK-MAl">
@@ -751,14 +751,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eva-kA-xLT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7319.4029850746265" y="828.60411899313499"/>
+            <point key="canvasLocation" x="6916" y="768"/>
         </scene>
         <!--Castle Explanation View Controller-->
         <scene sceneID="oWl-fm-akU">
             <objects>
                 <viewController id="W6I-zW-luQ" customClass="CastleExplanationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEH-8n-y4U">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お城検索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5f-HS-zBO">
@@ -872,11 +872,11 @@
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="GDk-mb-wXn"/>
-        <segue reference="HPg-92-khX"/>
+        <segue reference="D2f-Hh-jJG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image2" width="148.66667175292969" height="216"/>
-        <image name="Omegajo_image" width="52.666667938232422" height="52.666667938232422"/>
+        <image name="OmegaJo_icon" width="157" height="157"/>
         <image name="usagi" width="65.333335876464844" height="85.666664123535156"/>
         <image name="松本城" width="187" height="258"/>
         <systemColor name="labelColor">

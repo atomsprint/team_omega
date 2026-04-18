@@ -79,6 +79,7 @@ class QuizViewController: UIViewController {
             answerVC.onFinish = { [weak self] in
                 print("AnswerVCが閉じられました")
                 self?.currentIndex += 1
+                self?.showQuestion()
             }
                 if let resultVC = segue.destination as? ResultViewController {
                     resultVC.score = score

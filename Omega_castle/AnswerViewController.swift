@@ -33,8 +33,9 @@ class AnswerViewController: UIViewController {
     @IBAction func nextQuestionTapped(_ sender: UIButton) {
         // guard let quizVC = sourceQuizVC else { return }
         navigationController?.popViewController(animated: true)
-        onFinish?()
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true) { [weak self] in
+            self?.onFinish?()
+        }
         DispatchQueue.main.async {
         //    quizVC.advanceAfterAnswer()
         }
