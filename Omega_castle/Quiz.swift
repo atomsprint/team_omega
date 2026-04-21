@@ -194,6 +194,16 @@ let HimejiQuizzes: [Quiz] = [
     Quiz(question: "姫路城の大天守にはあるものがある。それは四つのうちどれ？", choices: ["天窓","神社","お風呂","鏡"], answer: 1, explanation: "「刑部（おさかべ）神社」は姫路城が姫山に築かれる以前より、地元の人たちの信仰の対象となっていた地主神を祀ったものと言われてい流。")
 ]
 
+let MaruokaQuizzes: [Quiz] = [
+    Quiz(question: "名城100このうちの一つ、丸岡城はどこにあるでしょうか。", choices: ["佐賀県","滋賀県","福井県","新潟県"], answer: 2, explanation: "丸岡城は旧国名の越前国、現在の福井県にある。"),
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か丸岡城の別名は？", choices: ["霧ヶ城","なし","佐々木城","細首城"], answer: 0, explanation: "由来は諸説あるが、有名なのは、 敵勢に囲まれた丸岡城を霞が取り巻いて守ったという伝承です"),
+    Quiz(question: "昔に丸岡城を築いた人は?", choices: ["柴田勝豊","佐竹義重","北条氏廉","織田信長"], answer: 0, explanation: "天正3年（1575）越前一向一揆を平定した織田信長が、柴田勝家に越前の大部分の支配を命じ、勝家が甥の勝豊に築城させた。"),
+    Quiz(question: "初重（1階）部分の壁面には雨水の流入を防ぐために短い屋根が見られるが、これをなんというか?", choices: ["首屋根","肩屋根","腰屋根","漆屋根"], answer: 2, explanation: "天守は、天守台より一回り小さく作られています。そうすると、雨などが天守と天守台の間に入ってくるので、天守台を覆いかぶせるように、腰屋根といものがつけられている。"),
+    Quiz(question: "日本最古の天守として知られている丸岡城の天守の屋根は笏谷石（しゃくだにいし）と呼ばれる石でできているが、その総重量はなんトンか？", choices: ["850トン","900トン","1100トン","1200トン"], answer: 3, explanation: "雪や寒さで瓦が割れないように、寒さに強い石が用いられた。6000枚のうち2割ほど、福井県産の笏谷石が用いられている。"),
+    Quiz(question: "丸岡城の軒丸瓦には三巴の模様が彫られているが、それは何を意味しているか？", choices: ["先祖の弔い","火災を防ぐ","戦いに勝つ","雨乞い"], answer: 1, explanation: "三つ巴は水が渦巻く様子を表したもので、防火の願いがこめられている。"),
+    Quiz(question: "築城前、ここには何があったか？", choices: ["お寺","水田","神社","塩田"], answer: 1, explanation: "丸岡城築城以前は國神神社があったと言われている。継体天皇を祭神として祀り、宝物殿には本多重昭が奉納した天国宝剣が収められている。")
+]
+
 var index = 0
 // var index2 = 0
 // var correctNumber = 0
@@ -223,6 +233,7 @@ enum CastleID: Int, CaseIterable {
     case Oshi = 15
     case Oosaka = 16
     case Himeji = 17
+    case Maruoka = 18
 }
 
 let castleQuizzes: [CastleID: [Quiz]] = [
@@ -243,5 +254,6 @@ let castleQuizzes: [CastleID: [Quiz]] = [
     .Goryokaku: GoryokakuQuizzes,
     .Oshi: OshiQuizzes,
     .Oosaka: OosakaQuizzes,
-    .Himeji: HimejiQuizzes
+    .Himeji: HimejiQuizzes,
+    .Maruoka: MaruokaQuizzes
 ]
