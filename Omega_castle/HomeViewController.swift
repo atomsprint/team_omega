@@ -14,12 +14,12 @@ class HomeViewController: UIViewController {
         
         switch segue.identifier {
         case "お城":
-            vc.selectedGenre = "お城"
+            vc.castle = "お城"
         default:
-            vc.selectedGenre = ""
+            vc.castle = ""
         }
         
         print("segue.identifier = \(segue.identifier ?? "nil")")
-        print("渡す selectedGenre = \(vc.selectedGenre)")
+        print("渡す castle = \(vc.castle)")
     }
 }

@@ -204,6 +204,76 @@ let MaruokaQuizzes: [Quiz] = [
     Quiz(question: "築城前、ここには何があったか？", choices: ["お寺","水田","神社","塩田"], answer: 1, explanation: "丸岡城築城以前は國神神社があったと言われている。継体天皇を祭神として祀り、宝物殿には本多重昭が奉納した天国宝剣が収められている。")
 ]
 
+let AkoQuizzes: [Quiz] = [
+    Quiz(question: "名城100このうちの一つ、赤穂城はどこにあるでしょうか。", choices: ["徳島県","岡山県","広島県","兵庫県"], answer: 3, explanation: "赤穂城は旧国名の播磨国、現在の兵庫県にある。"),
+    Quiz(question: "日本100名城の中で90以上の別名がある。その中か赤穂城の別名はなんという?", choices: ["霧ヶ城","なし","加里屋城","烏城"], answer: 2, explanation: "播磨国赤穂郡加里屋村に築城されたため、この別名がつけられた。"),
+    Quiz(question: "江戸時代に制定された法律により新規築城は禁止されていたが、築城者と徳川家が婚姻関係にあったことから特別に許された。築城はなんという法律で禁止されていたか。", choices: ["武家諸法度","大宝律令","公事方御定書","御成敗式目"], answer: 0, explanation: "江戸幕府が武家を統制するために法令や規定を定めた"),
+    Quiz(question: "赤穂城を築いた人は?", choices: ["黒田官兵衛","池田忠継","浅野長政","森永嗣"], answer: 2, explanation: "正保２年(1645)に常陸国笠間から入封した浅野長直が、慶安元年(1648)より13年以上の歳月を費やして築城した"),
+    Quiz(question: "赤穂城には石垣の曲がり角に凸型に突き出た突出部がたくさんあり、敵を様々な角度から迎え撃つことができる。この突出部をなんというか?", choices: ["虎口","石狭間","合横矢","横矢枡形"], answer: 3, explanation: "横矢枡形の上には、かつて土塀がめぐらされており、外部から侵入してくる敵兵を鉄砲等で撃退する施設となっていた。"),
+    Quiz(question: "この地域では弥生時代からあるものが作られ、それは現在まで引き継がれている。あるものとはなにか？", choices: ["塩","米","豆","とうもろこし"], answer: 0, explanation: "江戸時代にはいると大規模かつ効率化された入浜塩田が出現し、全国の塩生産の8%を占めていた。"),
+    Quiz(question: "1701年、赤穂城の城主であった浅野内匠頭長矩は江戸で吉良上野介に刃傷をし切腹した。君主の仇討ちのために立ち上がった赤穂の浪士は何人だったか？", choices: ["24人","33人","47人","56人"], answer: 2, explanation: "元家老大石内蔵助ら47人の浪士が1702年12月14日に吉良上野介へ仇討ちをした。")
+]
+
+let KanazawaQuizzes: [Quiz] = [
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+]
+
+let TakedaQuizzes: [Quiz] = [
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+]
+
+let AizuwakamatsuQuizzes: [Quiz] = [
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+]
+
+let SendaiQuizzes: [Quiz] = [
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+]
+
+let NagashinoQuizzes: [Quiz] = [
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+]
+
+let UedaQuizzes: [Quiz] = [
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+]
+
 var index = 0
 // var index2 = 0
 // var correctNumber = 0
@@ -234,6 +304,14 @@ enum CastleID: Int, CaseIterable {
     case Oosaka = 16
     case Himeji = 17
     case Maruoka = 18
+    case Ako = 19
+    case Kanazawa = 20
+    case Takeda = 21
+    case Aizuwakamatsu = 22
+    case Sendai = 23
+    case Nagashino = 24
+    case Ueda = 25
+    
 }
 
 let castleQuizzes: [CastleID: [Quiz]] = [
@@ -255,5 +333,12 @@ let castleQuizzes: [CastleID: [Quiz]] = [
     .Oshi: OshiQuizzes,
     .Oosaka: OosakaQuizzes,
     .Himeji: HimejiQuizzes,
-    .Maruoka: MaruokaQuizzes
+    .Maruoka: MaruokaQuizzes,
+    .Ako: AkoQuizzes,
+    .Kanazawa: KanazawaQuizzes,
+    .Takeda: TakedaQuizzes,
+    .Aizuwakamatsu: AizuwakamatsuQuizzes,
+    .Sendai: SendaiQuizzes,
+    .Nagashino: NagashinoQuizzes,
+    .Ueda: UedaQuizzes
 ]

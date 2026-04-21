@@ -11,12 +11,20 @@ class SearchedViewController: UIViewController, UITableViewDataSource, UITableVi
     
     @IBOutlet weak var tableView: UITableView!
     
-    var selectedGenre: String = ""
+    var castle: String = ""
     var allCastles = CSVLoader.load()
     var displayCastles: [Castle] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        displayCastles = allCastles.filter {
+            c in
+            c.category1 == castle ||
+            c.category2 == castle ||
+            c.category3 == castle ||
+            c.category4 == castle
+        }
         tableView.dataSource = self
         tableView.delegate = self
         tableView.reloadData()
