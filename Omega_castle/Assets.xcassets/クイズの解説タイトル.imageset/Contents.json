@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "クイズの解説タイトル.png",
+      "filename" : "クイズの解説タイトル 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -11,7 +11,7 @@
       "scale" : "2x"
     },
     {
-      "filename" : "クイズの解説タイトル 1.png",
+      "filename" : "クイズの解説タイトル 3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
