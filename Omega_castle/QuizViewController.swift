@@ -37,14 +37,19 @@ class QuizViewController: UIViewController {
     }
     
     func showQuestion() {
-        let quiz = quizzes[currentIndex]
+        if currentIndex == 7{
+            print("a")
+        }
+        else{
+            let quiz = quizzes[currentIndex]
+            questionNumberLabel.text = "第\(currentIndex + 1)問 / 7問"
+            questionLabel.text = quiz.question
+            choiceAButton.setTitle(quiz.choices[0], for: .normal)
+            choiceBButton.setTitle(quiz.choices[1], for: .normal)
+            choiceCButton.setTitle(quiz.choices[2], for: .normal)
+            choiceDButton.setTitle(quiz.choices[3], for: .normal)
+        }
         
-        questionNumberLabel.text = "第\(currentIndex + 1)問 / 7問"
-        questionLabel.text = quiz.question
-        choiceAButton.setTitle(quiz.choices[0], for: .normal)
-        choiceBButton.setTitle(quiz.choices[1], for: .normal)
-        choiceCButton.setTitle(quiz.choices[2], for: .normal)
-        choiceDButton.setTitle(quiz.choices[3], for: .normal)
     }
     @IBAction func choiceTapped(_ sender: UIButton) {
         var selectedIndex = 0

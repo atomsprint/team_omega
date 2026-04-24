@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,8 +24,8 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="36"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="28"/>
+                                    <color key="baseForegroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
@@ -187,7 +187,7 @@
             <objects>
                 <viewController id="AHm-Gf-8IY" customClass="ClearChartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9iV-l4-sLA">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lop-9F-9B0">
@@ -223,7 +223,7 @@
             <objects>
                 <viewController id="Q0M-Nn-grH" customClass="OmegapyonViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVP-MP-60q">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22S-MD-PzK">
@@ -264,11 +264,11 @@
             <objects>
                 <viewController id="xWn-2y-zky" customClass="PeopleNumberViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iU-Eb-PYz">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aUe-Xb-Lm2">
-                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
+                                <rect key="frame" x="0.0" y="178" width="402" height="628"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="0aR-uR-sdA">
                                     <rect key="frame" x="0.0" y="138.66666730244953" width="402" height="44"/>
@@ -346,7 +346,7 @@
             <objects>
                 <viewController id="awV-F4-z7b" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f90-v9-1Ec">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdp-QY-1O3">
@@ -402,7 +402,7 @@
             <objects>
                 <viewController id="IKY-Bb-DZO" customClass="QuizViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gCs-vc-rD5">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="問題文をここに表示" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqm-pb-gkT">
@@ -579,7 +579,7 @@
             <objects>
                 <viewController id="4rt-ZU-hPi" customClass="SearchedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r8T-Kx-8Nx">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mus-XH-0he">
@@ -628,7 +628,7 @@
                                 </prototypes>
                             </tableView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お城検索タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Pmj-F7-24M">
-                                <rect key="frame" x="81" y="62" width="240" height="128"/>
+                                <rect key="frame" x="81" y="50" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -649,7 +649,7 @@
             <objects>
                 <viewController id="juI-qF-mIA" customClass="AnswerViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wua-u4-TTo">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説を表示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNd-Ek-sdE">
@@ -725,7 +725,7 @@
             <objects>
                 <viewController id="W6I-zW-luQ" customClass="CastleExplanationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEH-8n-y4U">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTD-CN-iMI">
@@ -779,7 +779,7 @@
             <objects>
                 <viewController id="TcA-wn-Dcr" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqM-vF-jry">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あ行のお城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFz-Fb-XDw">
@@ -840,7 +840,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="EVU-kr-EJH"/>
-        <segue reference="HPg-92-khX"/>
+        <segue reference="3JR-gc-2ye"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image2" width="148.66667175292969" height="216"/>
@@ -860,6 +860,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

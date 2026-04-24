@@ -19,6 +19,8 @@ class AnswerViewController: UIViewController {
     weak var sourceQuizVC: QuizViewController?
     var onFinish: (() -> Void)?
     
+    var correct_num = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
@@ -29,6 +31,7 @@ class AnswerViewController: UIViewController {
         questionLabel.text = "正解は:\(correctText)"
         explanationLabel.text = quiz.explanation
         explanationLabel.numberOfLines = 0
+
     }
     @IBAction func nextQuestionTapped(_ sender: UIButton) {
         // guard let quizVC = sourceQuizVC else { return }
