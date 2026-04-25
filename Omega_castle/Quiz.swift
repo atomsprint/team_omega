@@ -215,63 +215,63 @@ let AkoQuizzes: [Quiz] = [
 ]
 
 let KanazawaQuizzes: [Quiz] = [
-    Quiz(question: "日本", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+    Quiz(question: "日本三名園のひとつがあり、平野の中心部に築かれている城は何城？", choices: ["松本城","彦根城","金沢城","姫路城"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "金沢城は誰によって築かれた？", choices: ["織田信長","前田利家","徳川家康","佐久間盛政"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "金沢域の別名は？", choices: ["北陸城","金山城","尾山城","前田城"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "金沢域近くにある尾山神社の神門の最上階にある特徴的なものは？", choices: ["ステンドグラス","金のしゃちほこ","鐘","鏡"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "金沢城の石垣に見られる切込接（きりこみはぎ）とはどんな積み方？", choices: ["石を正確に加工して隙間なく積む方法","粘土で石を固めて積む方法","大きな石をランダムに積む方法","石に切り込みを入れて積む方法"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "金沢城に着いたら最初に見える大きな門はなんという？", choices: ["社門","大門","金沢門","雷門"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "金沢城の瓦として有名な鉛瓦が使われた主な理由は？", choices: ["軽くて運びやすいから","色がきれいで見た目が良いから","雨の音が静かになるから","火事に備えるため"], answer: 4, explanation: "解説準備中")
 ]
 
 let TakedaQuizzes: [Quiz] = [
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+    Quiz(question: "竹田城は別名何の城と言われていた？", choices: ["梟の城","大山の城","雲海の城","天空の城"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "竹田城が築かれた目的として、もっとも近いものは？", choices: ["海からの敵を防ぐため","都を守るため","国と国の境目を守るため","お祭りを開くため"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "今の竹田城に残っているものは？", choices: ["石垣","武家屋敷 ","天守","武器庫"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "1580年に誰の侵攻によって竹田城は落城した？", choices: ["織田信長","前田利家","徳川家康","豊臣秀吉"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "落城後に新たに入城したのは誰？", choices: ["太田垣","脇坂安政","赤松広秀","山名宗全"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "竹田城が廃城となったのはどんな出来事のあと？", choices: ["関ヶ原の戦いのあと","大阪城ができたあと","江戸に大きな火事があったあと","黒船が来たあと"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "竹田城がつくられた場所はどこ？", choices: ["京都市の中心部","岐阜県の山の上","兵庫県の山の上","奈良県の山寺近く"], answer: 3, explanation: "解説準備中")
 ]
 
 let AizuwakamatsuQuizzes: [Quiz] = [
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+    Quiz(question: "会津若松城の別名は何城と言われている？", choices: ["白鳥城","若虎城","白壁城","鶴ヶ城"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "会津若松城の天守で他の城と違う特徴はなに？", choices: ["黒い瓦","青い瓦","赤い瓦","金色の瓦"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "会津若松城が激しい戦いの舞台となった戦争はどれ？", choices: ["関ヶ原の戦い","応仁の乱","戊辰戦争","大坂の陣"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "戊辰戦争のときに会津藩で結成された若い武士の部隊はなんと呼ばれた？", choices: ["新選組","赤穂浪士","白虎隊","若鶴隊"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "会津若松城はいつ建てられた？", choices: ["1384年","1438年","1386年","1238年"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "現在の会津若松城の天守は何時代に建て直された？", choices: ["戦国時代","江戸時代","明治時代","昭和時代"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "会津藩の武士や子どもたちが大切にしていた教えは？", choices: ["石の上にも三年","一期一会","ならぬことはならぬものです","風林火山"], answer: 3, explanation: "解説準備中")
 ]
 
 let SendaiQuizzes: [Quiz] = [
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+    Quiz(question: "仙台城を築いた戦国武将はだれ？", choices: ["上杉謙信","伊達政宗","徳川家康","豊臣秀吉"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "仙台城の別名は何城と言われている？", choices: ["松島城","白石城","杜山城","青葉城"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "仙台城に天守が作られなかった理由として有力な説は？", choices: ["資金不足だった","政治的に不要と判断された","地震で倒壊した","外国から禁止された"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "仙台城が築かれた地形の特徴は？", choices: ["森の中","平地の中央","山の上","崖の上"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "仙台城の本丸から見下ろすことができる川は？", choices: ["阿武隈川","広瀬川","信濃川","阿武隈川"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "江戸時代に仙台城で藩の政治の中心として使われていたのはどこ？", choices: ["本丸","二の丸","三の丸","天守"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "現在の仙台城跡は、どのような場所として使われている？", choices: ["役所がある","工場が建っている","公園・史跡となっている","東北地方のの民芸・歴史館が建っている"], answer: 3, explanation: "解説準備中")
 ]
 
 let NagashinoQuizzes: [Quiz] = [
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+    Quiz(question: "長篠城があるのは現在の何県？", choices: ["静岡県","長野県","岐阜県","愛知県"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "長篠城の戦いで有名な戦術は？", choices: ["水攻め","三段撃ち","火攻め","騎馬隊の突撃"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "1575年、長篠城を攻めた武将はだれ？", choices: ["武田勝頼","織田信長","徳川家康","上杉謙信"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "長篠城が重要だった理由は？", choices: ["海に面していたから","金山があったから","交通の要所だったから","白が巨大だったから"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "長篠城はどんな地形を生かして築かれた？", choices: ["四方を海に囲まれていた","平らな平野のまん中","川と断崖に囲まれていた","高い山の一番上にあった"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "武田軍が敗北した理由は？", choices: ["海戦に弱かったから","鉄砲戦術の影響を受けたから","人数が少なかったから","馬が足りなかったから"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "長篠の戦いのあと、長篠城はどうなった？", choices: ["さらに大きく改修された","江戸時代まで使われた","廃城になった","将軍直轄の城になった"], answer: 3, explanation: "解説準備中")
 ]
 
 let UedaQuizzes: [Quiz] = [
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
-    Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中")
+    Quiz(question: "上田城を築いた人はだれ？", choices: ["真田幸村","真田昌幸","上杉景勝","徳川家康"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "上田城があるのは現在の何県？", choices: ["長野県","新潟県","群馬県","山梨県"], answer: 1, explanation: "解説準備中"),
+    Quiz(question: "上田城が難攻不落と呼ばれる理由は？", choices: ["天守がとても高かったから","二度も徳川軍を退けたから","城の周りが海だったから","最新の武器があったから"], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "真田軍が徳川軍を撃退して有名になった戦いは何と呼ばれた？", choices: ["関ヶ原の戦い","川中島の戦い","上田合戦","大坂の陣"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "上田城で徳川軍を撃退したとき、真田側の兵力はおよそどれくらいだった？", choices: ["約1万","約5000","約2000","約1000"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "上田城で徳川軍を足止めした人物はだれ？", choices: ["真田信之","直江兼続","真田昌幸と真田幸村","石田三成"], answer: 3, explanation: "解説準備中"),
+    Quiz(question: "上田城の本丸の北東のすみが、少しへこんだ形をしている理由は？", choices: ["地震でくずれたから","攻められて崩れたあと","鬼門除けのため","敵にわざと攻めやすそうにに見せるため"], answer: 3, explanation: "解説準備中")
 ]
 
 var index = 0
