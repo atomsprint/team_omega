@@ -31,16 +31,21 @@ class AnswerViewController: UIViewController {
         questionLabel.text = "正解は:\(correctText)"
         explanationLabel.text = quiz.explanation
         explanationLabel.numberOfLines = 0
-
+        
     }
     @IBAction func nextQuestionTapped(_ sender: UIButton) {
-        // guard let quizVC = sourceQuizVC else { return }
-        navigationController?.popViewController(animated: true)
-        dismiss(animated: true) { [weak self] in
-            self?.onFinish?()
+        if questionOrdinal == 7{
+            
+            let resultVC = segue.destination as? ResultViewController{
+        
+            }
         }
-        DispatchQueue.main.async {
-        //    quizVC.advanceAfterAnswer()
+        else{
+            navigationController?.popViewController(animated: true)
+            dismiss(animated: true) { [weak self] in
+                self?.onFinish?()
+            }
+            
         }
     }
 }

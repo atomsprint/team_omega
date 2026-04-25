@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
@@ -168,7 +168,7 @@
                                     <segue destination="Q0M-Nn-grH" kind="show" id="lNZ-wM-X6p"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
                                 <rect key="frame" x="81" y="104" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -187,7 +187,7 @@
             <objects>
                 <viewController id="AHm-Gf-8IY" customClass="ClearChartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9iV-l4-sLA">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lop-9F-9B0">
@@ -223,7 +223,7 @@
             <objects>
                 <viewController id="Q0M-Nn-grH" customClass="OmegapyonViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVP-MP-60q">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22S-MD-PzK">
@@ -245,7 +245,7 @@
                                 <rect key="frame" x="61" y="275" width="281" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
                                 <rect key="frame" x="72" y="97" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -264,11 +264,11 @@
             <objects>
                 <viewController id="xWn-2y-zky" customClass="PeopleNumberViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iU-Eb-PYz">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aUe-Xb-Lm2">
-                                <rect key="frame" x="0.0" y="178" width="402" height="628"/>
+                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="0aR-uR-sdA">
                                     <rect key="frame" x="0.0" y="138.66666730244953" width="402" height="44"/>
@@ -346,7 +346,7 @@
             <objects>
                 <viewController id="awV-F4-z7b" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f90-v9-1Ec">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdp-QY-1O3">
@@ -368,7 +368,7 @@
                                 <rect key="frame" x="-84" y="192" width="571" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お城クイズタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-2F-2Sv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="クイズの解説タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-2F-2Sv">
                                 <rect key="frame" x="72" y="92" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -402,7 +402,7 @@
             <objects>
                 <viewController id="IKY-Bb-DZO" customClass="QuizViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gCs-vc-rD5">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="問題文をここに表示" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqm-pb-gkT">
@@ -579,7 +579,7 @@
             <objects>
                 <viewController id="4rt-ZU-hPi" customClass="SearchedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r8T-Kx-8Nx">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mus-XH-0he">
@@ -649,7 +649,7 @@
             <objects>
                 <viewController id="juI-qF-mIA" customClass="AnswerViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wua-u4-TTo">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説を表示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNd-Ek-sdE">
@@ -725,7 +725,7 @@
             <objects>
                 <viewController id="W6I-zW-luQ" customClass="CastleExplanationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEH-8n-y4U">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTD-CN-iMI">
@@ -779,7 +779,7 @@
             <objects>
                 <viewController id="TcA-wn-Dcr" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqM-vF-jry">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あ行のお城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFz-Fb-XDw">
@@ -839,8 +839,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
-        <segue reference="EVU-kr-EJH"/>
-        <segue reference="3JR-gc-2ye"/>
+        <segue reference="GDk-mb-wXn"/>
+        <segue reference="D2f-Hh-jJG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intro_image2" width="148.66667175292969" height="216"/>
@@ -848,10 +848,11 @@
         <image name="usagi" width="65.333335876464844" height="85.666664123535156"/>
         <image name="お城クイズタイトル" width="212" height="60.666667938232422"/>
         <image name="お城検索タイトル" width="200" height="62.666667938232422"/>
-        <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
-        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
+        <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
+        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
         <image name="オメガ城タイトル" width="328" height="100.66666412353516"/>
         <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
+        <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
         <image name="クリア表タイトル" width="198" height="54"/>
         <image name="松本城" width="187" height="258"/>
         <image name="結果発表タイトル" width="198" height="62"/>
