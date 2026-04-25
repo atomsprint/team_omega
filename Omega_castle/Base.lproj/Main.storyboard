@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -32,7 +32,7 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="3JR-gc-2ye"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Intro_image2" translatesAutoresizingMaskIntoConstraints="NO" id="Suj-2b-Vj4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="姫路城" translatesAutoresizingMaskIntoConstraints="NO" id="Suj-2b-Vj4">
                                 <rect key="frame" x="0.0" y="225" width="402" height="499"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -168,7 +168,7 @@
                                     <segue destination="Q0M-Nn-grH" kind="show" id="lNZ-wM-X6p"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
                                 <rect key="frame" x="81" y="104" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -241,11 +241,11 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="sth-mo-8iq"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usagi" translatesAutoresizingMaskIntoConstraints="NO" id="FWy-sr-ABD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaPyon1" translatesAutoresizingMaskIntoConstraints="NO" id="FWy-sr-ABD">
                                 <rect key="frame" x="61" y="275" width="281" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
                                 <rect key="frame" x="72" y="97" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -368,7 +368,7 @@
                                 <rect key="frame" x="-84" y="192" width="571" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="クイズの解説タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-2F-2Sv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="クイズの解説タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-2F-2Sv">
                                 <rect key="frame" x="72" y="92" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -843,19 +843,18 @@
         <segue reference="D2f-Hh-jJG"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Intro_image2" width="148.66667175292969" height="216"/>
         <image name="OmegaJo_icon" width="157" height="157"/>
-        <image name="usagi" width="65.333335876464844" height="85.666664123535156"/>
+        <image name="OmegaPyon1" width="418" height="418"/>
         <image name="お城クイズタイトル" width="212" height="60.666667938232422"/>
         <image name="お城検索タイトル" width="200" height="62.666667938232422"/>
-        <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
-        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
-        <image name="オメガ城タイトル" width="328" height="100.66666412353516"/>
+        <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
+        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
+        <image name="オメガ城タイトル" width="329.33334350585938" height="97.333335876464844"/>
         <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
-        <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
         <image name="クリア表タイトル" width="198" height="54"/>
+        <image name="姫路城" width="148.66667175292969" height="216"/>
         <image name="松本城" width="187" height="258"/>
-        <image name="結果発表タイトル" width="198" height="62"/>
+        <image name="結果発表タイトル" width="594" height="186"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

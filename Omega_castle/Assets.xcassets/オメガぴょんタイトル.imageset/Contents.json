@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "オメガぴょんタイトル 3.png",
+      "filename" : "オメガぴょんタイトル.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "オメガぴょんタイトル 4.png",
+      "filename" : "オメガぴょんタイトル 2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "オメガぴょんタイトル.png",
+      "filename" : "オメガぴょんタイトル 1.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -18,8 +18,7 @@ class SearchedViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        displayCastles = allCastles.filter {
-            c in
+        displayCastles = allCastles.filter { c in
             c.category1 == castle ||
             c.category2 == castle ||
             c.category3 == castle ||

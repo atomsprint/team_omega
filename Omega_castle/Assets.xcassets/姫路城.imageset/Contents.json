@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "姫路城.jpeg",
+      "filename" : "IMG_1009.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "姫路城@2x.jpeg",
+      "filename" : "IMG_1009@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "姫路城@3x.jpeg",
+      "filename" : "IMG_1009@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
