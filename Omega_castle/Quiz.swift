@@ -215,7 +215,7 @@ let AkoQuizzes: [Quiz] = [
 ]
 
 let KanazawaQuizzes: [Quiz] = [
-    Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
+    Quiz(question: "日本", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
     Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
     Quiz(question: "", choices: ["","","",""], answer: 0, explanation: "解説準備中"),
     Quiz(question: "", choices: ["","","",""], answer: 2, explanation: "解説準備中"),
