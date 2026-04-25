@@ -18,8 +18,8 @@ class AnswerViewController: UIViewController {
     var tatleQuestions: Int = 1
     weak var sourceQuizVC: QuizViewController?
     var onFinish: (() -> Void)?
-    
-    var correct_num = 0
+    var selectedIndex = 0
+    var score = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +31,9 @@ class AnswerViewController: UIViewController {
         questionLabel.text = "正解は:\(correctText)"
         explanationLabel.text = quiz.explanation
         explanationLabel.numberOfLines = 0
+        if selectedIndex == quiz.answer {
+            score += 1
+        }
         
     }
     @IBAction func nextQuestionTapped(_ sender: UIButton) {

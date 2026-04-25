@@ -19,6 +19,7 @@ class QuizViewController: UIViewController {
     var quizzes: [Quiz] = []
     var currentIndex = 0
     var score = 0
+    var selectedIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +52,7 @@ class QuizViewController: UIViewController {
         
     }
     @IBAction func choiceTapped(_ sender: UIButton) {
-        var selectedIndex = 0
+
         
         if sender == choiceAButton {
             selectedIndex = 0
@@ -79,6 +80,7 @@ class QuizViewController: UIViewController {
             answerVC.quiz = q
             answerVC.questionOrdinal = currentIndex + 1
             answerVC.tatleQuestions = quizzes.count
+            answerVC.selectedIndex = selectedIndex
             answerVC.sourceQuizVC = self
             answerVC.onFinish = { [weak self] in
                 print("AnswerVCが閉じられました")
