@@ -38,10 +38,7 @@ class AnswerViewController: UIViewController {
     }
     @IBAction func nextQuestionTapped(_ sender: UIButton) {
         if questionOrdinal == 7{
-            
-            let resultVC = segue.destination as? ResultViewController{
-        
-            }
+            performSegue(withIdentifier: "showResult", sender: nil)
         }
         else{
             navigationController?.popViewController(animated: true)
@@ -49,6 +46,14 @@ class AnswerViewController: UIViewController {
                 self?.onFinish?()
             }
             
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showResult" {
+            if let resultVC = segue.destination as? ResultViewController {
+                resultVC.score = score
+            }
         }
     }
 }

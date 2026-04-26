@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
@@ -213,6 +213,7 @@
                         <viewLayoutGuide key="safeArea" id="YfN-3a-9DV"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="RQO-uK-aJc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8Y-Un-NGV" sceneMemberID="firstResponder"/>
             </objects>
@@ -513,16 +514,9 @@
             <objects>
                 <viewController id="cal-Io-NHT" customClass="ResultViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RMh-2j-WOm">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X問中X問正解" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0s-U5-mYO">
-                                <rect key="frame" x="86" y="315" width="231" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNp-t6-dSF">
                                 <rect key="frame" x="112" y="746" width="178" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -538,6 +532,14 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="D2f-Hh-jJG"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="結果発表タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="sVL-F1-A5Q">
+                                <rect key="frame" x="72" y="154" width="259" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Rvr-yG-wMM">
+                                <rect key="frame" x="20" y="315" width="363" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oN-dJ-xXN">
                                 <rect key="frame" x="86" y="652" width="231" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -549,17 +551,16 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="retryTapped:" destination="cal-Io-NHT" eventType="touchUpInside" id="o1d-oe-yUz"/>
-                                    <segue destination="IKY-Bb-DZO" kind="show" id="GDk-mb-wXn"/>
+                                    <segue destination="IKY-Bb-DZO" kind="show" identifier="showQuiz" id="AR9-VH-pOa"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="結果発表タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="sVL-F1-A5Q">
-                                <rect key="frame" x="72" y="154" width="259" height="116"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X問中X問正解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0s-U5-mYO">
+                                <rect key="frame" x="20" y="315" width="363" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Rvr-yG-wMM">
-                                <rect key="frame" x="20" y="315" width="363" height="400"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aqx-AA-hRO"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -714,6 +715,7 @@
                         <outlet property="explanationLabel" destination="SNd-Ek-sdE" id="heY-FS-2cu"/>
                         <outlet property="questionLabel" destination="gBG-Sa-Ip6" id="t3M-jo-WSd"/>
                         <outlet property="questionNumberLabel" destination="iIl-Vb-rEl" id="r6G-7o-AlY"/>
+                        <segue destination="cal-Io-NHT" kind="show" identifier="showResult" id="eJt-7B-gqX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eva-kA-xLT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -839,7 +841,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
-        <segue reference="GDk-mb-wXn"/>
+        <segue reference="AR9-VH-pOa"/>
         <segue reference="D2f-Hh-jJG"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -854,7 +856,7 @@
         <image name="クリア表タイトル" width="198" height="54"/>
         <image name="姫路城" width="148.66667175292969" height="216"/>
         <image name="松本城" width="187" height="258"/>
-        <image name="結果発表タイトル" width="594" height="186"/>
+        <image name="結果発表タイトル" width="198" height="62"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

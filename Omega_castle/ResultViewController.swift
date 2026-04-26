@@ -21,5 +21,13 @@ class ResultViewController: UIViewController {
     }
     @IBAction func retryTapped(_ sender: Any) {
         navigationController?.popViewController(animated: true)
+        
+        performSegue(withIdentifier: "showQuiz",sender: nil)
     }
-}
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "showQuiz" {
+                if let quizVC = segue.destination as? QuizViewController {
+                }
+            }
+        }
+    }

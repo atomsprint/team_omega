@@ -216,7 +216,7 @@ let AkoQuizzes: [Quiz] = [
 
 let KanazawaQuizzes: [Quiz] = [
     Quiz(question: "日本三名園のひとつがあり、平野の中心部に築かれている城は何城？", choices: ["松本城","彦根城","金沢城","姫路城"], answer: 3, explanation: "解説準備中"),
-    Quiz(question: "金沢城は誰によって築かれた？", choices: ["織田信長","前田利家","徳川家康","佐久間盛政"], answer: 4, explanation: "解説準備中"),
+    Quiz(question: "金沢城は誰によって築かれた？", choices: ["織田信長","前田利家","徳川家康","佐久間盛政"], answer: 3, explanation: "解説準備中"),
     Quiz(question: "金沢域の別名は？", choices: ["北陸城","金山城","尾山城","前田城"], answer: 3, explanation: "解説準備中"),
     Quiz(question: "金沢域近くにある尾山神社の神門の最上階にある特徴的なものは？", choices: ["ステンドグラス","金のしゃちほこ","鐘","鏡"], answer: 1, explanation: "解説準備中"),
     Quiz(question: "金沢城の石垣に見られる切込接（きりこみはぎ）とはどんな積み方？", choices: ["石を正確に加工して隙間なく積む方法","粘土で石を固めて積む方法","大きな石をランダムに積む方法","石に切り込みを入れて積む方法"], answer: 1, explanation: "解説準備中"),
