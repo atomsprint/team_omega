@@ -37,7 +37,7 @@ class QuizViewController: UIViewController {
         showQuestion()
     }
     
-    
+
     
     func showQuestion() {
         
@@ -82,7 +82,9 @@ class QuizViewController: UIViewController {
             answerVC.tatleQuestions = quizzes.count
             answerVC.selectedIndex = selectedIndex
             answerVC.sourceQuizVC = self
+            answerVC.score = self.score
             answerVC.onFinish = { [weak self] in
+        
                 print("AnswerVCが閉じられました")
                 self?.currentIndex += 1
                 self?.showQuestion()

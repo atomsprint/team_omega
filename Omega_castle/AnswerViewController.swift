@@ -32,7 +32,7 @@ class AnswerViewController: UIViewController {
         explanationLabel.text = quiz.explanation
         explanationLabel.numberOfLines = 0
         if selectedIndex == quiz.answer {
-            score += 1
+            //score += 5
         }
         
     }
@@ -52,7 +52,7 @@ class AnswerViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showResult" {
             if let resultVC = segue.destination as? ResultViewController {
-                resultVC.score = score
+                resultVC.score = self.score
             }
         }
     }

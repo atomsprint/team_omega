@@ -11,13 +11,13 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var resultButton: UIButton!
     
-    var score = 0
+    var score: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        resultLabel.text = "7問中 \(score)問正解！💫🌟"
+        resultLabel.text = "7問中 \(score!)問正解！💫🌟"
     }
     @IBAction func retryTapped(_ sender: Any) {
         navigationController?.popViewController(animated: true)
@@ -26,8 +26,9 @@ class ResultViewController: UIViewController {
     }
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if segue.identifier == "showQuiz" {
-                if let quizVC = segue.destination as? QuizViewController {
+                //if let quizVC = segue.destination as? QuizViewController {
                 }
             }
         }
-    }
+
+
