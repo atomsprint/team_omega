@@ -55,17 +55,82 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
-                                <rect key="frame" x="39" y="526" width="324" height="379"/>
+                                <rect key="frame" x="140" y="494" width="311" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
                                 <rect key="frame" x="81" y="62" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿オメガぴょんボタン" translatesAutoresizingMaskIntoConstraints="NO" id="PmQ-E5-YJr">
+                                <rect key="frame" x="16" y="574" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿入城者数ランキングボタン" translatesAutoresizingMaskIntoConstraints="NO" id="tEC-yt-5T2">
+                                <rect key="frame" x="16" y="372" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿クリア表ボタン" translatesAutoresizingMaskIntoConstraints="NO" id="NUY-UU-bhX">
+                                <rect key="frame" x="205" y="372" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿お城クイズボタン" translatesAutoresizingMaskIntoConstraints="NO" id="Qpr-kB-yqQ">
+                                <rect key="frame" x="16" y="170" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿お城検索ボタン" translatesAutoresizingMaskIntoConstraints="NO" id="H9d-10-sEN">
+                                <rect key="frame" x="205" y="170" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaV-Ym-e16">
+                                <rect key="frame" x="16" y="170" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="awV-F4-z7b" kind="show" id="fYI-nf-ymy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sL0-fd-9W3">
+                                <rect key="frame" x="205" y="170" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="TcA-wn-Dcr" kind="show" id="5CT-kD-03R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAA-8F-5CQ">
+                                <rect key="frame" x="16" y="372" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="xWn-2y-zky" kind="show" id="VEM-Jm-ahN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByE-cU-haT">
+                                <rect key="frame" x="205" y="372" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="AHm-Gf-8IY" kind="show" id="89I-4l-hrp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJl-cg-eaR">
+                                <rect key="frame" x="16" y="574" width="181" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="Q0M-Nn-grH" kind="show" id="z5c-ut-8kS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3xr-BY-Y1W"/>
                         <color key="backgroundColor" red="0.95686274509803915" green="0.94117647058823528" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
@@ -81,7 +146,7 @@
             <objects>
                 <viewController id="AHm-Gf-8IY" customClass="ClearChartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9iV-l4-sLA">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="クリア表タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="C8n-To-rbu">
@@ -103,73 +168,6 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="5oM-uD-gWj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIr-eR-5Y1">
-                                <rect key="frame" x="51" y="377" width="300" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="お城の入場者数ランキング">
-                                    <backgroundConfiguration key="background"/>
-                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="xWn-2y-zky" kind="show" id="Q70-Oc-1r6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="po6-e6-xsj">
-                                <rect key="frame" x="121" y="504" width="161" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="オメガぴょん">
-                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Q0M-Nn-grH" kind="show" id="lNZ-wM-X6p"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIv-6y-SKn">
-                                <rect key="frame" x="127" y="434" width="149" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="クリア表">
-                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="AHm-Gf-8IY" kind="show" id="I4O-qn-hac"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4U-Wy-9wl">
-                                <rect key="frame" x="121" y="259" width="161" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="お城検索">
-                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="TcA-wn-Dcr" kind="show" id="MYc-Y5-1ps"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJn-Qh-5hD">
-                                <rect key="frame" x="129" y="186" width="145" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="お城クイズ">
-                                    <backgroundConfiguration key="background"/>
-                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="23"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="awV-F4-z7b" kind="show" id="rp5-8T-1uk"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YfN-3a-9DV"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -185,11 +183,15 @@
             <objects>
                 <viewController id="Q0M-Nn-grH" customClass="OmegapyonViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVP-MP-60q">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
                                 <rect key="frame" x="72" y="62" width="259" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="吹き出し" translatesAutoresizingMaskIntoConstraints="NO" id="79X-i2-bMA">
+                                <rect key="frame" x="16" y="244" width="370" height="595"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22S-MD-PzK">
@@ -207,23 +209,20 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="sth-mo-8iq"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MaG-di-Fju">
-                                <rect key="frame" x="57" y="439" width="283" height="258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="quaternarySystemFillColor"/>
-                                <string key="text">
-私の名前はオメガぴょんだよ！
-オメガ酸が入った魚を食べて元気いっぱいです！
-私は城巡りが大好きで、
-みんなと一緒に城巡りするのが楽しみです！！！</string>
-                                <color key="textColor" systemColor="systemBrownColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaPyon1" translatesAutoresizingMaskIntoConstraints="NO" id="FWy-sr-ABD">
-                                <rect key="frame" x="75" y="173" width="253" height="246"/>
+                                <rect key="frame" x="16" y="112" width="370" height="363"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MaG-di-Fju">
+                                <rect key="frame" x="61" y="501" width="280" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">私の名前はオメガぴょんだよ!
+オメガ酸が入った魚を食べて元気いっぱいです!
+私は城巡りが大好きで、みんなと一緒に城巡りするのが楽しみ!!!</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Evi-5i-PHq"/>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.94117647058823528" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
@@ -239,11 +238,11 @@
             <objects>
                 <viewController id="xWn-2y-zky" customClass="PeopleNumberViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iU-Eb-PYz">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aUe-Xb-Lm2">
-                                <rect key="frame" x="0.0" y="62" width="402" height="750"/>
+                                <rect key="frame" x="0.0" y="62" width="402" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="0aR-uR-sdA">
                                     <rect key="frame" x="0.0" y="138.66666730244953" width="402" height="44"/>
@@ -315,14 +314,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uFt-QX-RdQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4143.2835820895516" y="129.7482837528604"/>
+            <point key="canvasLocation" x="4140.2985074626868" y="129.7482837528604"/>
         </scene>
         <!--Randam View Controller-->
         <scene sceneID="Oqv-ru-uxN">
             <objects>
                 <viewController id="awV-F4-z7b" customClass="RandamViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f90-v9-1Ec">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="松本城" translatesAutoresizingMaskIntoConstraints="NO" id="Dlv-iU-Ydp">
@@ -795,7 +794,7 @@
             <objects>
                 <viewController id="TcA-wn-Dcr" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqM-vF-jry">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あ行のお城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFz-Fb-XDw">
@@ -879,11 +878,11 @@
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="EVU-kr-EJH"/>
-        <segue reference="3JR-gc-2ye"/>
+        <segue reference="sth-mo-8iq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="OmegaJo_icon" width="157" height="157"/>
-        <image name="OmegaPyon1" width="418" height="418"/>
+        <image name="OmegaPyon1" width="341.33334350585938" height="341.33334350585938"/>
         <image name="Wrong" width="128.33332824707031" height="121.33333587646484"/>
         <image name="お城クイズタイトル" width="212" height="60.666667938232422"/>
         <image name="お城検索タイトル" width="200" height="62.666667938232422"/>
@@ -892,17 +891,20 @@
         <image name="オメガ城タイトル" width="329.33334350585938" height="97.333335876464844"/>
         <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
         <image name="クリア表タイトル" width="198" height="54"/>
+        <image name="吹き出し" width="66.666664123535156" height="66.666664123535156"/>
         <image name="姫路城" width="148.66667175292969" height="216"/>
         <image name="松本城" width="187" height="258"/>
         <image name="結果発表タイトル" width="198" height="62"/>
-        <systemColor name="quaternarySystemFillColor">
-            <color red="0.45490196078431372" green="0.45490196078431372" blue="0.50196078431372548" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="薄緑背景＿お城クイズボタン" width="50" height="50"/>
+        <image name="薄緑背景＿お城検索ボタン" width="50" height="50"/>
+        <image name="薄緑背景＿オメガぴょんボタン" width="50" height="50"/>
+        <image name="薄緑背景＿クリア表ボタン" width="50" height="50"/>
+        <image name="薄緑背景＿入城者数ランキングボタン" width="50" height="50"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.67450980392156867" green="0.49803921568627452" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
