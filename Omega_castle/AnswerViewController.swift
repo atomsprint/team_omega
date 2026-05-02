@@ -9,6 +9,7 @@ import UIKit
 
 class AnswerViewController: UIViewController {
     
+    @IBOutlet weak var right_wrong: UIImageView!
     @IBOutlet weak var explanationLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var questionNumberLabel: UILabel!
@@ -32,6 +33,7 @@ class AnswerViewController: UIViewController {
         explanationLabel.text = quiz.explanation
         explanationLabel.numberOfLines = 0
         if selectedIndex == quiz.answer {
+            right_wrong.image =  #imageLiteral(resourceName: "Right")
             //score += 5
         }
         

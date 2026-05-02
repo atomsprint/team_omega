@@ -690,7 +690,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="問題番号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIl-Vb-rEl">
-                                <rect key="frame" x="136" y="179" width="194" height="45"/>
+                                <rect key="frame" x="16" y="179" width="194" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="26"/>
                                 <nil key="textColor"/>
@@ -745,6 +745,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wrong" translatesAutoresizingMaskIntoConstraints="NO" id="xSi-Od-ofK">
+                                <rect key="frame" x="231" y="147" width="141" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rON-Pm-ZFL"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -754,6 +758,7 @@
                         <outlet property="explanationLabel" destination="SNd-Ek-sdE" id="heY-FS-2cu"/>
                         <outlet property="questionLabel" destination="gBG-Sa-Ip6" id="t3M-jo-WSd"/>
                         <outlet property="questionNumberLabel" destination="iIl-Vb-rEl" id="r6G-7o-AlY"/>
+                        <outlet property="right_wrong" destination="xSi-Od-ofK" id="Z1P-W8-3fF"/>
                         <segue destination="cal-Io-NHT" kind="show" identifier="showResult" id="eJt-7B-gqX"/>
                     </connections>
                 </viewController>
@@ -913,16 +918,17 @@
     <inferredMetricsTieBreakers>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="EVU-kr-EJH"/>
-        <segue reference="sth-mo-8iq"/>
+        <segue reference="NBF-Gr-dBw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="OmegaJo_icon" width="157" height="157"/>
         <image name="OmegaPyon1" width="418" height="418"/>
+        <image name="Wrong" width="128.33332824707031" height="121.33333587646484"/>
         <image name="お城クイズタイトル" width="212" height="60.666667938232422"/>
         <image name="お城検索タイトル" width="200" height="62.666667938232422"/>
         <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
-        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
-        <image name="オメガ城タイトル" width="329.33334350585938" height="97.333335876464844"/>
+        <image name="オメガ城!!" width="265" height="90"/>
+        <image name="オメガ城タイトル" width="494" height="146"/>
         <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
         <image name="クリア表タイトル" width="198" height="54"/>
         <image name="姫路城" width="148.66667175292969" height="216"/>
