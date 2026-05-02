@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="225" width="402" height="499"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="oBt-bd-pGJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="oBt-bd-pGJ">
                                 <rect key="frame" x="8" y="64" width="386" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -30,7 +30,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="遊んでみる">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.63838448069999998" green="0.78302702670000002" blue="0.78077279799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.19789882990867577" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,34 +55,34 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
                                 <rect key="frame" x="140" y="494" width="311" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガ城!!" translatesAutoresizingMaskIntoConstraints="NO" id="75s-mp-s1S">
                                 <rect key="frame" x="81" y="62" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿オメガぴょんボタン" translatesAutoresizingMaskIntoConstraints="NO" id="PmQ-E5-YJr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿オメガぴょんボタン" translatesAutoresizingMaskIntoConstraints="NO" id="PmQ-E5-YJr">
                                 <rect key="frame" x="16" y="574" width="181" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿入城者数ランキングボタン" translatesAutoresizingMaskIntoConstraints="NO" id="tEC-yt-5T2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿入城者数ランキングボタン" translatesAutoresizingMaskIntoConstraints="NO" id="tEC-yt-5T2">
                                 <rect key="frame" x="16" y="372" width="181" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿クリア表ボタン" translatesAutoresizingMaskIntoConstraints="NO" id="NUY-UU-bhX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿クリア表ボタン" translatesAutoresizingMaskIntoConstraints="NO" id="NUY-UU-bhX">
                                 <rect key="frame" x="205" y="372" width="181" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿お城クイズボタン" translatesAutoresizingMaskIntoConstraints="NO" id="Qpr-kB-yqQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿お城クイズボタン" translatesAutoresizingMaskIntoConstraints="NO" id="Qpr-kB-yqQ">
                                 <rect key="frame" x="16" y="170" width="181" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿お城検索ボタン" translatesAutoresizingMaskIntoConstraints="NO" id="H9d-10-sEN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="薄緑背景＿お城検索ボタン" translatesAutoresizingMaskIntoConstraints="NO" id="H9d-10-sEN">
                                 <rect key="frame" x="205" y="170" width="181" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -186,7 +186,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="オメガぴょんタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="YJi-r3-eGc">
                                 <rect key="frame" x="72" y="62" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -328,7 +328,7 @@
                                 <rect key="frame" x="-84" y="192" width="571" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お城クイズタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-2F-2Sv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お城クイズタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-2F-2Sv">
                                 <rect key="frame" x="72" y="62" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -338,7 +338,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="スタート">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.63838448069999998" green="0.78302702670000002" blue="0.78077279799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -443,7 +443,7 @@
                                     <segue destination="juI-qF-mIA" kind="show" id="3PG-4L-IKF"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お城クイズタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="3p7-XE-4XV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お城クイズタイトル" translatesAutoresizingMaskIntoConstraints="NO" id="3p7-XE-4XV">
                                 <rect key="frame" x="72" y="62" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -492,7 +492,7 @@
             <objects>
                 <viewController id="cal-Io-NHT" customClass="ResultViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RMh-2j-WOm">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Rvr-yG-wMM">
@@ -510,13 +510,15 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oN-dJ-xXN">
-                                <rect key="frame" x="81" y="673" width="234" height="67"/>
+                                <rect key="frame" x="84" y="673" width="234" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="もう一度挑戦">
+                                <buttonConfiguration key="configuration" style="plain" title="もう一度挑戦">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.63838448069999998" green="0.78302702670000002" blue="0.78077279799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="retryTapped:" destination="cal-Io-NHT" eventType="touchUpInside" id="o1d-oe-yUz"/>
@@ -527,13 +529,6 @@
                                 <rect key="frame" x="72" y="62" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X問中X問正解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0s-U5-mYO">
-                                <rect key="frame" x="20" y="315" width="363" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNp-t6-dSF">
                                 <rect key="frame" x="81" y="759" width="234" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -549,6 +544,13 @@
                                     <segue destination="ETq-Gf-Lhz" kind="show" id="D2f-Hh-jJG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X問中X問正解" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0s-U5-mYO">
+                                <rect key="frame" x="20" y="253" width="363" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aqx-AA-hRO"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -656,7 +658,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="クイズの解説タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="cUg-em-qkB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="クイズの解説タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="cUg-em-qkB">
                                 <rect key="frame" x="71" y="62" width="259" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -689,10 +691,12 @@
                                 <rect key="frame" x="84" y="675" width="234" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="次の問題へ">
+                                <buttonConfiguration key="configuration" style="plain" title="次の問題へ">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.63838448069999998" green="0.78302702670000002" blue="0.78077279799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextQuestionTapped:" destination="juI-qF-mIA" eventType="touchUpInside" id="kDN-cB-QqC"/>
@@ -876,30 +880,31 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="eJt-7B-gqX"/>
         <segue reference="OTS-1M-IDr"/>
-        <segue reference="EVU-kr-EJH"/>
-        <segue reference="sth-mo-8iq"/>
+        <segue reference="AR9-VH-pOa"/>
+        <segue reference="NBF-Gr-dBw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="OmegaJo_icon" width="157" height="157"/>
         <image name="OmegaPyon1" width="341.33334350585938" height="341.33334350585938"/>
         <image name="Wrong" width="128.33332824707031" height="121.33333587646484"/>
-        <image name="お城クイズタイトル" width="212" height="60.666667938232422"/>
+        <image name="お城クイズタイトル" width="636" height="182"/>
         <image name="お城検索タイトル" width="200" height="62.666667938232422"/>
-        <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
-        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
-        <image name="オメガ城タイトル" width="329.33334350585938" height="97.333335876464844"/>
-        <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
+        <image name="オメガぴょんタイトル" width="206.66667175292969" height="52.666667938232422"/>
+        <image name="オメガ城!!" width="176.66667175292969" height="60"/>
+        <image name="オメガ城タイトル" width="329.33334350585938" height="97.333335876464844"/>
+        <image name="クイズの解説タイトル" width="214" height="55.333332061767578"/>
         <image name="クリア表タイトル" width="198" height="54"/>
         <image name="吹き出し" width="66.666664123535156" height="66.666664123535156"/>
         <image name="姫路城" width="148.66667175292969" height="216"/>
         <image name="松本城" width="187" height="258"/>
         <image name="結果発表タイトル" width="198" height="62"/>
-        <image name="薄緑背景＿お城クイズボタン" width="50" height="50"/>
-        <image name="薄緑背景＿お城検索ボタン" width="50" height="50"/>
-        <image name="薄緑背景＿オメガぴょんボタン" width="50" height="50"/>
-        <image name="薄緑背景＿クリア表ボタン" width="50" height="50"/>
-        <image name="薄緑背景＿入城者数ランキングボタン" width="50" height="50"/>
+        <image name="薄緑背景＿お城クイズボタン" width="50" height="50"/>
+        <image name="薄緑背景＿お城検索ボタン" width="50" height="50"/>
+        <image name="薄緑背景＿オメガぴょんボタン" width="50" height="50"/>
+        <image name="薄緑背景＿クリア表ボタン" width="50" height="50"/>
+        <image name="薄緑背景＿入城者数ランキングボタン" width="50" height="50"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

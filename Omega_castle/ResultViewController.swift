@@ -17,7 +17,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        resultLabel.text = "7問中 \(score!)問正解！💫🌟"
+        resultLabel.text = "7問中 \(score!)問正解！"
     }
     @IBAction func retryTapped(_ sender: Any) {
         navigationController?.popViewController(animated: true)
