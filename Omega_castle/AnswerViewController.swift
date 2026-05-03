@@ -27,7 +27,7 @@ class AnswerViewController: UIViewController {
         updateUI()
     }
     func updateUI() {
-        questionNumberLabel.text = "第\(questionOrdinal)間 / \(tatleQuestions)問"
+        questionNumberLabel.text = "第\(questionOrdinal)問 / \(tatleQuestions)問"
         let correctText = quiz.choices[quiz.answer]
         questionLabel.text = "正解は:\(correctText)"
         explanationLabel.text = quiz.explanation
