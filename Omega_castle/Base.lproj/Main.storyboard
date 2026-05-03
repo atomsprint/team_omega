@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="ETq-Gf-Lhz" customClass="HomeViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4vp-4r-CGb">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-3g-EaH">
@@ -492,7 +492,7 @@
             <objects>
                 <viewController id="cal-Io-NHT" customClass="ResultViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RMh-2j-WOm">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OmegaJo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Rvr-yG-wMM">
@@ -815,7 +815,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="いいえ">
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.63838448069999998" green="0.78302702670000002" blue="0.78077279799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gB6-hc-06p">
@@ -825,7 +825,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="はい">
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
                                     <color key="baseForegroundColor" white="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.63137254899999995" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.63838448069999998" green="0.78302702670000002" blue="0.78077279799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="4rt-ZU-hPi" kind="show" identifier="あ行のお城" id="Sv0-55-Ch7"/>
@@ -880,10 +880,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eJt-7B-gqX"/>
         <segue reference="OTS-1M-IDr"/>
-        <segue reference="AR9-VH-pOa"/>
-        <segue reference="NBF-Gr-dBw"/>
+        <segue reference="EVU-kr-EJH"/>
+        <segue reference="iWn-HE-VeQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="OmegaJo_icon" width="157" height="157"/>
