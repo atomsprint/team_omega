@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class AnswerViewController: UIViewController {
     
@@ -22,10 +23,26 @@ class AnswerViewController: UIViewController {
     var selectedIndex = 0
     var score = 0
     
+    let array9 = ["Correct"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
     }
+    
+    var player: AVAudioPlayer?
+        
+        func playSound(fileName: String){
+            if let url = Bundle.main.url(forResource: fileName, withExtension: "mp3"){
+                do{
+                    player = try AVAudioPlayer(contentsOf: url)
+                    player?.play()
+                } catch {
+                    print("音声ファイルの再生に失敗しました: \(error)")
+                }
+            }
+        }
+    
     func updateUI() {
         questionNumberLabel.text = "第\(questionOrdinal)問 / \(tatleQuestions)問"
         let correctText = quiz.choices[quiz.answer]
@@ -34,6 +51,10 @@ class AnswerViewController: UIViewController {
         explanationLabel.numberOfLines = 0
         if selectedIndex == quiz.answer {
             right_wrong.image =  #imageLiteral(resourceName: "Right")
+            let index3 = 0
+            let sound:String = array9[index3]
+            playSound(fileName: sound)
+
             //score += 5
         }
         
