@@ -883,6 +883,8 @@
         <segue reference="OTS-1M-IDr"/>
         <segue reference="AR9-VH-pOa"/>
         <segue reference="5oM-uD-gWj"/>
+        <segue reference="EVU-kr-EJH"/>
+        <segue reference="iWn-HE-VeQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CastleQuizButton" width="50" height="50"/>
