@@ -11,7 +11,7 @@ class PeopleNumberViewController: UIViewController {
     
     @IBOutlet weak var TableView: UITableView!
     
-    let prefectures = PrefectureData.topFive
+    let prefectures = PrefectureData.topTen
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,23 +20,23 @@ class PeopleNumberViewController: UIViewController {
     }
 }
 
-// MARK: - UITableViewDataSource
 extension PeopleNumberViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return prefectures.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PrefectureCell
         let prefecture = prefectures[indexPath.row]
         
-        cell.textLabel?.text = "\(prefecture.rank)位: \(prefecture.name)"
-        cell.detailTextLabel?.text = "\(prefecture.PeopleNumber) 人"
+        cell.RankLabel.text = "\(prefecture.Rank)"
+        cell.NameLabel.text = prefecture.Name
+        cell.PeopleNumberLabel.text = "\(prefecture.PeopleNumber) 人"
         
         return cell
     }
+    
 }
-
 // MARK: - UITableViewDelegate
 extension PeopleNumberViewController: UITableViewDelegate {
     

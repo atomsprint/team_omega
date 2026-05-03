@@ -9,9 +9,9 @@ import UIKit
 
 class CastleExplanationViewController: UIViewController {
     
-    @IBOutlet weak var CastleName: UILabel!
-    @IBOutlet weak var BuiltPeople: UILabel!
-    @IBOutlet weak var Explanation: UILabel!
+    @IBOutlet weak var CastleImageView: UIImageView!
+    @IBOutlet weak var ExplanationLabel: UILabel!
+    
     
     var castle: Castle?
     
@@ -19,8 +19,6 @@ class CastleExplanationViewController: UIViewController {
         super.viewDidLoad()
         guard let c = castle else { return }
         
-        CastleName.text = "お城の名前:\(c.CastleName)"
-        BuiltPeople.text = "築いた人:\(c.BuiltPeople)"
-        Explanation.text = "説明:\(c.Explanation)"
+        ExplanationLabel.text = "説明:\(c.Explanation)"
     }
 }
