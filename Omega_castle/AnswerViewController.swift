@@ -22,7 +22,6 @@ class AnswerViewController: UIViewController {
     var onFinish: (() -> Void)?
     var selectedIndex = 0
     var score = 0
-    
     let array9 = ["Correct"]
     
     override func viewDidLoad() {
@@ -31,18 +30,17 @@ class AnswerViewController: UIViewController {
     }
     
     var player: AVAudioPlayer?
-        
-        func playSound(fileName: String){
-            if let url = Bundle.main.url(forResource: fileName, withExtension: "mp3"){
-                do{
-                    player = try AVAudioPlayer(contentsOf: url)
-                    player?.play()
-                } catch {
-                    print("音声ファイルの再生に失敗しました: \(error)")
-                }
+    
+    func playSound(fileName: String){
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "mp3"){
+            do{
+                player = try AVAudioPlayer(contentsOf: url)
+                player?.play()
+            } catch {
+                print("音声ファイルの再生に失敗しました: \(error)")
             }
         }
-    
+    }
     func updateUI() {
         questionNumberLabel.text = "第\(questionOrdinal)問 / \(tatleQuestions)問"
         let correctText = quiz.choices[quiz.answer]
@@ -54,8 +52,6 @@ class AnswerViewController: UIViewController {
             let index3 = 0
             let sound:String = array9[index3]
             playSound(fileName: sound)
-
-            //score += 5
         }
         
     }
