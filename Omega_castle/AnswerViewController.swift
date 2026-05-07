@@ -22,7 +22,6 @@ class AnswerViewController: UIViewController {
     var onFinish: (() -> Void)?
     var selectedIndex = 0
     var score = 0
-    let array9 = ["Correct"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,9 +31,9 @@ class AnswerViewController: UIViewController {
     var player: AVAudioPlayer?
     
     func playSound(fileName: String){
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "mp3"){
+        if let soundURL = Bundle.main.url(forResource: fileName, withExtension: "mp3"){
             do{
-                player = try AVAudioPlayer(contentsOf: url)
+                player = try AVAudioPlayer(contentsOf: soundURL)
                 player?.play()
             } catch {
                 print("音声ファイルの再生に失敗しました: \(error)")
@@ -49,11 +48,12 @@ class AnswerViewController: UIViewController {
         explanationLabel.numberOfLines = 0
         if selectedIndex == quiz.answer {
             right_wrong.image =  #imageLiteral(resourceName: "Right")
-            let index3 = 0
-            let sound:String = array9[index3]
-            playSound(fileName: sound)
+            playSound(fileName: "Correct")
         }
-        
+        if selectedIndex != quiz.answer {
+            right_wrong.image = #imageLiteral(resourceName: "Wrong")
+            playSound(fileName: "Incorrect")
+        }
     }
     @IBAction func nextQuestionTapped(_ sender: UIButton) {
         if questionOrdinal == 7{
