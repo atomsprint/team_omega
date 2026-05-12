@@ -14,12 +14,13 @@ class Castle {
     var English: String
     var URL: String
     var place: String
+    var region: String
+    var Explanation: String
     var category1: String
     var category2: String
     var category3: String
     var category4: String
-    var Explanation: String
-    var region: String
+    
     init(row: [String]) {
         self.CastleName = row.count > 0 ? row[0] : "不明"
         self.BuiltPeople = row.count > 1 ? row[1] : "不明"
