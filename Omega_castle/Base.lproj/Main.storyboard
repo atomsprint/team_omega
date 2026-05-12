@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="317-Kg-MA5">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -602,6 +602,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CastleSearchTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Pmj-F7-24M">
+                                <rect key="frame" x="81" y="77" width="240" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mus-XH-0he">
                                 <rect key="frame" x="16" y="188" width="370" height="618"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -648,10 +652,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CastleSearchTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Pmj-F7-24M">
-                                <rect key="frame" x="81" y="77" width="240" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A2p-dx-1ls"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -993,10 +993,10 @@
             </objects>
             <point key="canvasLocation" x="3938.8059701492534" y="-1224.0274599542333"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="K2r-li-gUG">
             <objects>
-                <viewController id="DU6-om-mih" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DU6-om-mih" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FM6-Uw-5KT">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1058,10 +1058,10 @@
             </objects>
             <point key="canvasLocation" x="1198.5074626865671" y="-1224.0274599542333"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="lLc-41-ico">
             <objects>
-                <viewController id="82J-wI-DSh" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="82J-wI-DSh" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w8h-ke-5Jv">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1114,10 +1114,10 @@
             </objects>
             <point key="canvasLocation" x="1198.5074626865671" y="-553.31807780320366"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="SU4-Fm-gDn">
             <objects>
-                <viewController id="hAB-zC-vsb" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hAB-zC-vsb" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uOi-Um-VjP">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1179,10 +1179,10 @@
             </objects>
             <point key="canvasLocation" x="1895.5223880597014" y="-553.31807780320366"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="wZP-Ru-W7s">
             <objects>
-                <viewController id="zhJ-Bs-LR0" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zhJ-Bs-LR0" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DA5-xA-QOA">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1280,10 +1280,10 @@
             </objects>
             <point key="canvasLocation" x="1895.5223880597014" y="-1224.0274599542333"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="35P-6q-iR0">
             <objects>
-                <viewController id="TjC-KM-iPI" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TjC-KM-iPI" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zTF-XW-Eb1">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1382,10 +1382,10 @@
             </objects>
             <point key="canvasLocation" x="2611.9402985074626" y="-1224.0274599542333"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="JoJ-6o-K1I">
             <objects>
-                <viewController id="8FJ-E6-gLr" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8FJ-E6-gLr" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TSt-4f-Xfw">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1423,10 +1423,10 @@
             </objects>
             <point key="canvasLocation" x="3311.9402985074626" y="-1224.0274599542333"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="xsH-aF-T3h">
             <objects>
-                <viewController id="8K6-dI-e6S" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8K6-dI-e6S" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6TZ-ZR-PYZ">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1488,10 +1488,10 @@
             </objects>
             <point key="canvasLocation" x="2611.9402985074626" y="-553.31807780320366"/>
         </scene>
-        <!--Castle Explanation View Controller-->
+        <!--View Controller-->
         <scene sceneID="1tS-AM-7jL">
             <objects>
-                <viewController id="Xvv-7g-RU8" customClass="CastleExplanationViewController" customModule="Omega_castle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xvv-7g-RU8" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pFw-Ta-s29">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1568,10 +1568,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="wcb-Zz-p9m"/>
         <segue reference="N01-yq-UKg"/>
-        <segue reference="VDx-dc-FlI"/>
+        <segue reference="u8I-hT-YaA"/>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="AR9-VH-pOa"/>
-        <segue reference="HPg-92-khX"/>
+        <segue reference="sth-mo-8iq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CastleQuizButton" width="50" height="50"/>

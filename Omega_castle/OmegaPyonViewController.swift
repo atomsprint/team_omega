@@ -18,8 +18,7 @@ class OmegaPyonViewController: UIViewController {
         OmegaPyonImage.image = #imageLiteral(resourceName: "OmegaPyon1")
         OmegaPyonText.text = """
             私の名前はオメガぴょんだよ!
-            オメガ酸が入った魚を食べて元気いっぱいです!
-            大好きなお城をみんなと一緒に巡るのが楽しみ!!!
+            『レベルアップ』を押すと私が進化するよ。
             """
         OmegaPyonLevel.text = "Level 1"
     }
