@@ -23,6 +23,7 @@ class OmegaPyonViewController: UIViewController {
         OmegaPyonLevel.text = "Level 1"
     }
     var index = 0
+    var level = 1
     
     @IBAction func ChangeOmegaPyons(_ sender: Any) {
         
@@ -74,15 +75,15 @@ class OmegaPyonViewController: UIViewController {
         index += 1
         if index >= array.count {
             index = 0
-            if index >= array2.count {
-                index = 0
-                if index >= array3.count {
-                    index = 0
-                }
-            }
         }
-        OmegaPyonImage.image = array[index]
-        OmegaPyonText.text = array2[index]
-        OmegaPyonLevel.text = array3[index]
+        if index >= array2.count {
+            index = 0
+        }
+        if index >= array3.count {
+            index = 0
+        }
+            OmegaPyonImage.image = array[index]
+            OmegaPyonText.text = array2[index]
+            OmegaPyonLevel.text = array3[index]
+        }
     }
-}
