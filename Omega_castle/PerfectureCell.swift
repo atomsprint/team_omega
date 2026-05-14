@@ -12,6 +12,7 @@ class PrefectureCell: UITableViewCell {
     @IBOutlet weak var rankLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var peopleNumberLabel: UILabel!
+    @IBOutlet weak var prefectureImageView: UIImageView!
     
     
     override func awakeFromNib() {

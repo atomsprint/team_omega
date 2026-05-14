@@ -41,9 +41,11 @@ extension PeopleNumberViewController: UITableViewDataSource {
         
         let prefecture = prefectures[indexPath.row]
         
-        cell.rankLabel.text = "\(prefecture.rank)"
+        cell.rankLabel.text = "入城者数\(prefecture.rank)位"
         cell.nameLabel.text = prefecture.name
-        cell.peopleNumberLabel.text = "\(prefecture.peopleNumber) 人"
+        cell.peopleNumberLabel.text = "入城者数\(prefecture.peopleNumber) 人"
+        
+        cell.prefectureImageView.image = UIImage(named: prefecture.castleImage)
         
         return cell
     }

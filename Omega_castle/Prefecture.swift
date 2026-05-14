@@ -11,4 +11,5 @@ struct Prefecture {
     let rank: Int
     let name: String
     let peopleNumber: Int
+    let castleImage: String
 }
