@@ -9,8 +9,8 @@ import UIKit
 
 class CastleExplanationViewController: UIViewController {
     
-    @IBOutlet weak var CastleImageView: UIImageView!
     @IBOutlet weak var ExplanationLabel: UILabel!
+    @IBOutlet weak var castleImageView: UIImageView!
     
     
     var castle: Castle?

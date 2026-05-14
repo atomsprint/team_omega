@@ -9,9 +9,10 @@ import UIKit
 
 class PrefectureCell: UITableViewCell {
     
-    @IBOutlet weak var RankLabel: UILabel!
-    @IBOutlet weak var NameLabel: UILabel!
-    @IBOutlet weak var PeopleNumberLabel: UILabel!
+    @IBOutlet weak var rankLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var peopleNumberLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

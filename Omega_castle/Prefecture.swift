@@ -8,7 +8,7 @@
 import Foundation
 
 struct Prefecture {
-    let Rank: Int
-    let Name: String
-    let PeopleNumber: Int
+    let rank: Int
+    let name: String
+    let peopleNumber: Int
 }
