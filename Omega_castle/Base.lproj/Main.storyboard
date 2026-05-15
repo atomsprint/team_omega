@@ -731,20 +731,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Osaka" translatesAutoresizingMaskIntoConstraints="NO" id="09i-lD-jgw">
-                                <rect key="frame" x="81" y="261" width="240" height="128"/>
+                                <rect key="frame" x="56" y="241" width="291" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大阪城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vD-z5-4Di">
-                                <rect key="frame" x="159" y="206" width="85" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="説明" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEt-iS-Kl8">
+                                <rect key="frame" x="41" y="446" width="320" height="393"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="説明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEt-iS-Kl8">
-                                <rect key="frame" x="41" y="415" width="320" height="375"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大阪城" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vD-z5-4Di">
+                                <rect key="frame" x="125" y="178" width="152" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -803,7 +803,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Hirosaki:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="zyk-8k-kru"/>
-                                    <segue destination="KU3-Of-mim" kind="show" id="VQW-KE-SEP"/>
+                                    <segue destination="KU3-Of-mim" kind="show" identifier="toHirosaki" id="VQW-KE-SEP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Zw-MU-74v">
@@ -816,7 +816,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Sendai:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="PSz-GC-8qf"/>
-                                    <segue destination="KU3-Of-mim" kind="show" id="Qzu-pq-E8F"/>
+                                    <segue destination="KU3-Of-mim" kind="show" identifier="toSendai" id="Qzu-pq-E8F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uv2-lc-JjL">
@@ -829,7 +829,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Yamagata:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="okp-Xw-mQ6"/>
-                                    <segue destination="KU3-Of-mim" kind="show" id="kMm-3r-gl6"/>
+                                    <segue destination="KU3-Of-mim" kind="show" identifier="toYamagata" id="kMm-3r-gl6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSw-a9-max">
@@ -842,7 +842,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Aizuwakamatu:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="XZi-rS-Mfh"/>
-                                    <segue destination="KU3-Of-mim" kind="show" id="vAh-a1-O9q"/>
+                                    <segue destination="KU3-Of-mim" kind="show" identifier="toAizuwakamatu" id="vAh-a1-O9q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -896,7 +896,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Goryokaku:" destination="cLS-5r-3Fu" eventType="touchUpInside" id="clT-eD-pWc"/>
-                                    <segue destination="KU3-Of-mim" kind="show" id="QXA-AS-BCn"/>
+                                    <segue destination="KU3-Of-mim" kind="show" identifier="toGryokaku" id="QXA-AS-BCn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1573,7 +1573,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="b7l-MT-Gdd"/>
         <segue reference="ynR-Pc-DJK"/>
-        <segue reference="iSE-KZ-juo"/>
+        <segue reference="vAh-a1-O9q"/>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="AR9-VH-pOa"/>
         <segue reference="3JR-gc-2ye"/>
