@@ -11,8 +11,7 @@ class ExplanationViewController: UIViewController {
     
     @IBOutlet weak var Castle_Image: UIImageView!
     @IBOutlet weak var Castle_Name: UILabel!
-    @IBOutlet weak var Castle_Explanation: UILabel!
-
+    @IBOutlet weak var Castle_Explanation: UITextView!
     var selectedIndex: Int = 0
     
     // 1. お城の情報をまとめる型を作る
@@ -34,7 +33,7 @@ class ExplanationViewController: UIViewController {
             CastleData(name: "弘前城", image: UIImage(named: "Hirosaki")!, explanation: "1590年津軽地方を統一した津軽為朝が領地を開拓して築城を計画したが、志半ばで病没したため三男の信牧が後を継いだ。全国に12城ある現存天守の一つで、武家諸法度で天守閣の再建が厳しく規制されていた江戸時代後期に再建された珍しい建物である。また、北側には武家屋敷も残っている。弘前城内には2,600本もの桜の木が植えられていると言われており、日本三大桜の名称として来場者の目を楽しませてくれる。青森県にある。"),
             CastleData(name: "仙台城", image: UIImage(named: "Sendai")!, explanation: "1600年、伊達政宗が青葉山に築城を開始。広瀬川を作る断崖や、渓谷に囲まれた攻めにくい城だ。天守は無かったが、豪華な本丸御殿が建っていた。その中心となる大広間は千畳敷と呼ばれ、華やかふすま絵などで飾られた、見事な部屋があった。本丸北壁の石垣は、長さ約179m、高い所で約17mもある。3回改修されていて、最も古いのは政宗が積んだもの。政宗の子供の忠宗が二の丸を作ると二の丸が政治の中心地になった。宮城県にある。"),
             CastleData(name: "山形城", image: UIImage(named: "Yamagata")!, explanation: "山形城は最上義光によって現在の原型になる城郭の大改修が行われた。関ヶ原の戦いで東軍へ加担し、家康から57万石の領地を認められた。山形城は本丸・二の丸・三の丸の三重の堀と土塁で囲まれた、全国有数の規模を持つ輪郭式の平常である。本丸は御殿のみで天守はなかったが、二の丸には三階櫓があった。現在は二の丸や堀、土塁が残っている。二の丸北側の土塁では全校で初の屏風折れ土塀の基礎が発見された。山形県にある。"),
-            CastleData(name: "会津若松城", image: UIImage(named: "Aizuwakamatu")!, explanation: "弘前城の説明文..."),
+            CastleData(name: "会津若松城", image: UIImage(named: "Aizuwakamatu")!, explanation: "至徳元年（1384)に葦名直盛が東黒川館を築いたのを起源とし、その後豊臣秀吉の家臣であった蒲生氏郷が会津若松城（鶴ヶ城）に改名するとともに、東日本で初の本格的な天守閣を建てた。北国の雪や寒さに耐えられるよう鉄分を多く含んだ釉薬を用いた赤煉瓦を開発した。現在この赤煉瓦を用いた天守をいることができるのは会津若松城だけである。明治維新における新政府軍と旧幕府軍の戦いである戊辰戦争では会津藩が戦場となり多くの命が奪われた。旧幕府軍であった会津藩は賊軍の汚名を着せられて会津若松城に1ヶ月の籠城の末に降伏した。福島県にある。"),
             // ...26個分続く
         ]
         showDetail(index: selectedIndex)
