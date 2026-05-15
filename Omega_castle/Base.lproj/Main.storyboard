@@ -731,20 +731,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Osaka" translatesAutoresizingMaskIntoConstraints="NO" id="09i-lD-jgw">
-                                <rect key="frame" x="81" y="209" width="240" height="128"/>
+                                <rect key="frame" x="81" y="261" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大阪城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXw-fi-TBn">
-                                <rect key="frame" x="159" y="150" width="85" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大阪城" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vD-z5-4Di">
+                                <rect key="frame" x="159" y="206" width="85" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="説明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEt-iS-Kl8">
-                                <rect key="frame" x="44" y="360" width="320" height="375"/>
+                                <rect key="frame" x="41" y="415" width="320" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -753,6 +753,11 @@
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zev-6y-lZR"/>
+                    <connections>
+                        <outlet property="Castle_Explanation" destination="lEt-iS-Kl8" id="dJy-Yc-0lu"/>
+                        <outlet property="Castle_Image" destination="09i-lD-jgw" id="PYo-Lc-jK0"/>
+                        <outlet property="Castle_Name" destination="8vD-z5-4Di" id="IwO-69-Tp2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L7k-X2-NOE" sceneMemberID="firstResponder"/>
             </objects>
@@ -797,6 +802,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Hirosaki:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="zyk-8k-kru"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="VQW-KE-SEP"/>
                                 </connections>
                             </button>
@@ -809,6 +815,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Sendai:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="PSz-GC-8qf"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="Qzu-pq-E8F"/>
                                 </connections>
                             </button>
@@ -821,6 +828,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Yamagata:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="okp-Xw-mQ6"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="kMm-3r-gl6"/>
                                 </connections>
                             </button>
@@ -833,6 +841,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Aizuwakamatu:" destination="IJg-Pr-TK0" eventType="touchUpInside" id="XZi-rS-Mfh"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="vAh-a1-O9q"/>
                                 </connections>
                             </button>
@@ -843,6 +852,7 @@
                     <navigationItem key="navigationItem" id="5qh-H1-C1f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3G6-45-5rj" sceneMemberID="firstResponder"/>
+                <exit id="IJg-Pr-TK0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3244.7761194029849" y="-1876.2013729977116"/>
         </scene>
@@ -885,6 +895,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273292097068" green="0.54300462245941161" blue="0.54300462245941161" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Goryokaku:" destination="cLS-5r-3Fu" eventType="touchUpInside" id="clT-eD-pWc"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="QXA-AS-BCn"/>
                                 </connections>
                             </button>
@@ -895,6 +906,7 @@
                     <navigationItem key="navigationItem" id="QXt-10-umx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHm-Gs-8Mv" sceneMemberID="firstResponder"/>
+                <exit id="cLS-5r-3Fu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3938.8059701492534" y="-1875.5148741418764"/>
         </scene>
@@ -937,6 +949,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Kumamoto:" destination="Eco-bg-cvR" eventType="touchUpInside" id="l1X-bR-erm"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="iSE-KZ-juo"/>
                                 </connections>
                             </button>
@@ -947,6 +960,7 @@
                     <navigationItem key="navigationItem" id="518-QA-zXP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEu-dJ-scf" sceneMemberID="firstResponder"/>
+                <exit id="Eco-bg-cvR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1826.8656716417909" y="-558.12356979405035"/>
         </scene>
@@ -989,6 +1003,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Hikone:" destination="Ezr-Bx-Q1i" eventType="touchUpInside" id="wK7-t5-GpG"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="dU3-Wo-1KY"/>
                                 </connections>
                             </button>
@@ -1001,6 +1016,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Azuchi:" destination="Ezr-Bx-Q1i" eventType="touchUpInside" id="9pq-ss-78F"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="ijS-lE-UKU"/>
                                 </connections>
                             </button>
@@ -1013,6 +1029,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Takeda:" destination="Ezr-Bx-Q1i" eventType="touchUpInside" id="8ju-1y-eVg"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="9wS-cQ-q3m"/>
                                 </connections>
                             </button>
@@ -1025,6 +1042,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Ako:" destination="Ezr-Bx-Q1i" eventType="touchUpInside" id="bcU-ou-XDs"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="k9Z-vS-7m4"/>
                                 </connections>
                             </button>
@@ -1037,6 +1055,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Himeji:" destination="Ezr-Bx-Q1i" eventType="touchUpInside" id="ahC-WT-CI1"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="YgA-1m-UCk"/>
                                 </connections>
                             </button>
@@ -1049,6 +1068,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Osaka:" destination="Ezr-Bx-Q1i" eventType="touchUpInside" id="Fqg-d8-F2y"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="hoH-lU-yIg"/>
                                 </connections>
                             </button>
@@ -1059,6 +1079,7 @@
                     <navigationItem key="navigationItem" id="u8i-FT-S1z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PhI-sH-oS4" sceneMemberID="firstResponder"/>
+                <exit id="Ezr-Bx-Q1i" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1826.8656716417909" y="-1224.0274599542333"/>
         </scene>
@@ -1101,6 +1122,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Kochi:" destination="ctG-Yw-tfm" eventType="touchUpInside" id="ZYG-gV-UlM"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="MuL-QO-TiN"/>
                                 </connections>
                             </button>
@@ -1113,6 +1135,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Marugame:" destination="ctG-Yw-tfm" eventType="touchUpInside" id="dfq-Tk-yXh"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="d93-Rb-SUS"/>
                                 </connections>
                             </button>
@@ -1123,6 +1146,7 @@
                     <navigationItem key="navigationItem" id="t8O-7Q-num"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7I-gN-AgE" sceneMemberID="firstResponder"/>
+                <exit id="ctG-Yw-tfm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2523.8805970149251" y="-558.12356979405035"/>
         </scene>
@@ -1165,6 +1189,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Ueda:" destination="hb3-rY-dzv" eventType="touchUpInside" id="6cx-dU-OJi"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="WYI-MX-l5b"/>
                                 </connections>
                             </button>
@@ -1177,6 +1202,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Matumoto:" destination="hb3-rY-dzv" eventType="touchUpInside" id="jDL-7m-Bvy"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="xkT-hJ-jSV"/>
                                 </connections>
                             </button>
@@ -1189,6 +1215,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Kanazawa:" destination="hb3-rY-dzv" eventType="touchUpInside" id="reT-fI-1fX"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="9IU-ZK-rcb"/>
                                 </connections>
                             </button>
@@ -1201,6 +1228,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Maruoka:" destination="hb3-rY-dzv" eventType="touchUpInside" id="1FI-aL-D1Y"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="viq-GZ-0fA"/>
                                 </connections>
                             </button>
@@ -1213,6 +1241,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Inuyama:" destination="hb3-rY-dzv" eventType="touchUpInside" id="I4p-Vw-i04"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="aHQ-iI-3Nh"/>
                                 </connections>
                             </button>
@@ -1225,6 +1254,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Nagoya:" destination="hb3-rY-dzv" eventType="touchUpInside" id="8zM-pI-LX8"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="rTt-3G-jxb"/>
                                 </connections>
                             </button>
@@ -1237,6 +1267,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Nagashino:" destination="hb3-rY-dzv" eventType="touchUpInside" id="Zee-Ab-Crz"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="XzV-rM-0mR"/>
                                 </connections>
                             </button>
@@ -1247,6 +1278,7 @@
                     <navigationItem key="navigationItem" id="d8b-El-lIq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auU-8L-7Zk" sceneMemberID="firstResponder"/>
+                <exit id="hb3-rY-dzv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2523.8805970149251" y="-1224.0274599542333"/>
         </scene>
@@ -1289,6 +1321,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Matue:" destination="BOU-Xs-IyX" eventType="touchUpInside" id="FwB-qz-A6l"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="xpu-aE-BRc"/>
                                 </connections>
                             </button>
@@ -1301,6 +1334,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Kino:" destination="BOU-Xs-IyX" eventType="touchUpInside" id="eDS-vJ-CvV"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="LjG-iM-Axb"/>
                                 </connections>
                             </button>
@@ -1311,6 +1345,7 @@
                     <navigationItem key="navigationItem" id="X92-1c-FtV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ucD-Dr-6tj" sceneMemberID="firstResponder"/>
+                <exit id="BOU-Xs-IyX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3244.7761194029849" y="-558.12356979405035"/>
         </scene>
@@ -1353,6 +1388,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Oshi:" destination="iWt-X3-tub" eventType="touchUpInside" id="8Vg-qR-xkt"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="CUl-vc-XT8"/>
                                 </connections>
                             </button>
@@ -1365,6 +1401,7 @@
                                     <color key="baseBackgroundColor" red="0.53773273290000001" green="0.54300462250000003" blue="0.54300462250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="Odawara:" destination="iWt-X3-tub" eventType="touchUpInside" id="gTZ-ib-a3A"/>
                                     <segue destination="KU3-Of-mim" kind="show" id="q4a-75-6Dj"/>
                                 </connections>
                             </button>
@@ -1375,6 +1412,7 @@
                     <navigationItem key="navigationItem" id="QYA-ay-bAX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2R-Tl-uyS" sceneMemberID="firstResponder"/>
+                <exit id="iWt-X3-tub" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3244.7761194029849" y="-1224.0274599542333"/>
         </scene>
@@ -1535,7 +1573,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="b7l-MT-Gdd"/>
         <segue reference="ynR-Pc-DJK"/>
-        <segue reference="LjG-iM-Axb"/>
+        <segue reference="iSE-KZ-juo"/>
         <segue reference="OTS-1M-IDr"/>
         <segue reference="AR9-VH-pOa"/>
         <segue reference="3JR-gc-2ye"/>
