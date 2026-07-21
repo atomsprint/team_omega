@@ -8,54 +8,49 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
+
     @IBOutlet weak var resultLabel: UILabel!
-    @IBOutlet weak var resultButton: UIButton!
-    
-    var score: Int!
-    
+
+    var score: Int = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        addPoint()
         showResult()
-        // Do any additional setup after loading the view.
-        func showResult() {
-            if score == 7 {
-                resultLabel.text = "⭐️💫🌟🥇かんぺき!!🥇🌟💫⭐️"
-                resultLabel.textColor = .black
-            } else if score == 6 {
-                resultLabel.text = "💫🌟もう一息!!頑張れ!!🌟💫"
-                resultLabel.textColor = .black
-            } else if score == 5 {
-                resultLabel.text = "🌟おしい!!🌟"
-                resultLabel.textColor = .black
-            } else if score == 4 {
-                resultLabel.text = "🌟⭐️🥈ちょっと間違えちゃった...また頑張ろう🥈⭐️🌟"
-                resultLabel.textColor = .black
-            } else if score == 3 {
-                resultLabel.text = "💫🥈もう少し頑張ろう!!🥈💫"
-                resultLabel.textColor = .black
-            } else if score == 2 {
-                resultLabel.text = "⭐️🥉もっと頑張ろう!!🥉⭐️"
-                resultLabel.textColor = .black
-            } else if score == 1 {
-                resultLabel.text = "📚もっともっと頑張ろう📚"
-                resultLabel.textColor = .black
-            } else if score == 0 {
-                resultLabel.text = "😭君はお城博士に向いていない...😭"
-                resultLabel.textColor = .black
-            }
+    }
+
+    func addPoint() {
+
+        //現在のポイント
+        var point = UserDefaults.standard.integer(forKey: "POINT")
+
+        //1問10ポイント
+        point += score * 10
+
+        //保存
+        UserDefaults.standard.set(point, forKey: "POINT")
+    }
+
+    func showResult() {
+
+        if score == 7{
+            resultLabel.text = "⭐️💫🌟🥇かんぺき!!🥇🌟💫⭐️"
+        }else if score == 6{
+            resultLabel.text = "💫🌟もう一息!!頑張れ!!🌟💫"
+        }else if score == 5{
+            resultLabel.text = "🌟おしい!!🌟"
+        }else if score == 4{
+            resultLabel.text = "🌟⭐️🥈ちょっと間違えちゃった...🥈⭐️🌟"
+        }else if score == 3{
+            resultLabel.text = "💫🥈もう少し頑張ろう!!🥈💫"
+        }else if score == 2{
+            resultLabel.text = "⭐️🥉もっと頑張ろう!!🥉⭐️"
+        }else if score == 1{
+            resultLabel.text = "📚もっともっと頑張ろう📚"
+        }else{
+            resultLabel.text = "😭君はお城博士に向いていない...😭"
         }
     }
-    @IBAction func retryTapped(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
-        
-        performSegue(withIdentifier: "showQuiz",sender: nil)
-    }
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "showQuiz" {
-                //if let quizVC = segue.destination as? QuizViewController {
-                }
-            }
-        }
 
-
+}
