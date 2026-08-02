@@ -117,7 +117,7 @@ class OmegaPyonViewController: UIViewController {
         let point = UserDefaults.standard.integer(forKey: "POINT")
 
         // 100ポイントごとにレベルアップ
-        var level = point / 500
+        var level = point / 150
 
         // 最大レベル11
         if level > 11 {
